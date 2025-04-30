@@ -1,0 +1,2561 @@
+Tabla,NombreProducto,Clase
+Union Europea,Steirischer Kren,"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Steirisches Kürbiskernöl,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Tiroler Bergkäse,Cheeses
+Union Europea,Tiroler Graukäse,Cheeses
+Union Europea,Tiroler Speck,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Vorarlberger Bergkäse,Cheeses
+Union Europea,Beurre d'Ardenne,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Fromage de Herve,Cheeses
+Union Europea,Jambon d'Ardenne,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Pâté Gaumais,other products of Annex I of the Treaty (spices etc.)
+Union Europea,Plate de Florenville,"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Българско розово масло (Bulgarsko rozovo maslo),Essential oils
+Union Europea,"Γλυκό Τριαντάφυλλο Αγρού (Glyko Triantafyllo Agrou) ","Bread, pastry, cakes, confectionery, biscuits and other baker’s wares"
+Union Europea,"Λουκούμι Γεροσκήπου(Loukoumi Geroskipou)","Bread, pastry, cakes, confectionary, biscuits and other baker's wares"
+Union Europea,Budějovické pivo,Beers
+Union Europea,Budějovický měšťanský var,Beers
+Union Europea,České pivo,Beers
+Union Europea,Českobudějovické pivo,Beers
+Union Europea,Žatecký chmel,other products of Annex I of the Treaty (spices etc.)
+Union Europea,Aachener Printen,"Bread, pastry, cakes, confectionary, biscuits and other baker's wares"
+Union Europea,Allgäuer Bergkäse,Cheeses
+Union Europea,Allgäuer Emmentaler,Cheeses
+Union Europea,Bayerische Breze / Bayerische Brezn / Bayerische Brez'n / Bayerische Brezel,"Bread, pastry, cakes, confectionary, biscuits and other baker's wares"
+Union Europea,Bayerisches Bier,Beers
+Union Europea,Bremer Bier,Beers
+Union Europea,Dortmunder Bier,Beers
+Union Europea,Dresdner Christstollen / Dresdner Stollen / Dresdner Weihnachtsstollen,"Bread, pastry, cakes, confectionary, biscuits and other baker's wares"
+Union Europea,Holsteiner Katenschinken / Holsteiner Schinken / Holsteiner Katenrauchschinken / Holsteiner Knochenschinken,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Hopfen aus der Hallertau,other products of Annex I of the Treaty (spices etc.)
+Union Europea,Kölsch,Beers
+Union Europea,Kulmbacher Bier,Beers
+Union Europea,Lübecker Marzipan,"Bread, pastry, cakes, confectionary, biscuits and other baker's wares"
+Union Europea,Münchener Bier,Beers
+Union Europea,Nürnberger Bratwürste; Nürnberger Rostbratwürste,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Nürnberger Lebkuchen,"Bread, pastry, cakes, confectionary, biscuits and other baker's wares"
+Union Europea,Schwäbische Spätzle / Schwäbische Knöpfle,Pasta
+Union Europea,Schwarzwälder Schinken,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Tettnanger Hopfen,other products of Annex I of the Treaty (spices etc.)
+Union Europea,Thüringer Rostbratwurst,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Danablu,Cheeses
+Union Europea,Esrom,Cheeses
+Union Europea,Γραβιέρα Κρήτης (Graviera Kritis),Cheeses
+Union Europea,Γραβιέρα Νάξου (Graviera Naxou),Cheeses
+Union Europea,Ελιά Καλαμάτας (Elia Kalamatas),"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Καλαμάτα (Kalamata),"Oils and fats (butter, margarine, etc.)"
+Union Europea,Κασέρι (Kasseri),Cheeses
+Union Europea,Κεφαλογραβιέρα (Kefalograviera),Cheeses
+Union Europea,Κολυμβάρι Χανίων Κρήτης (Kolymvari Chanion Kritis),"Oils and fats (butter, margarine, etc.)"
+Union Europea,Κονσερβολιά Ροβίων (Konservolia Rovion),"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Κορινθιακή Σταφίδα Βοστίτσα (Korinthiaki Stafida Vostitsa),"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Κρόκος Κοζάνης (Krokos Kozanis),other products of Annex I of the Treaty (spices etc.)
+Union Europea,Λακωνία (Lakonia),"Oils and fats (butter, margarine, etc.)"
+Union Europea,Λυγουριό Ασκληπιείου (Lygourio Asklipiiou),"Oils and fats (butter, margarine, etc.)"
+Union Europea,Μανούρι (Manouri),Cheeses
+Union Europea,Μαστίχα Χίου (Masticha Chiou),Natural gums and resines
+Union Europea,Πεζά Ηρακλείου Κρήτης (Peza Irakliou Kritis) ,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Σητεία Λασιθίου Κρήτης (Sitia Lasithiou Kritis),"Oils and fats (butter, margarine, etc.)"
+Union Europea,Φέτα (Feta),Cheeses
+Union Europea,Χανιά Κρήτης (Chania Kritis),"Oils and fats (butter, margarine, etc.)"
+Union Europea,Aceite de la Rioja,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Aceite de Terra Alta ; Oli de Terra Alta,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Aceite del Baix Ebre-Montsià ; Oli del Baix Ebre-Montsià,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Aceite del Bajo Aragón,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Alfajor de Medina Sidonia,"Bread, pastry, cakes, confectionery, biscuits and other baker’s wares"
+Union Europea,Antequera,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Azafrán de la Mancha,other products of Annex I of the Treaty (spices etc.)
+Union Europea,Baena,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Carne de Vacuno del País Vasco/Euskal Okela,Fresh meat (and offal)
+Union Europea,Cecina de León,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Chorizo Riojano,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Cítricos Valencianos; Cítrics Valencians,"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Dehesa de Extremadura,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Estepa,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Guijuelo,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Idiazabal,Cheeses
+Union Europea,Jabugo,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Jamón de Trevélez,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Jamón de Teruel/ Paleta de Teruel ,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Jijona ,"Bread, pastry, cakes, confectionary, biscuits and other baker's wares"
+Union Europea,Les Garrigues,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Los Pedroches,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Mahón-Menorca,Cheeses
+Union Europea,Pimentón de la Vera,other products of Annex I of the Treaty (spices etc.)
+Union Europea,Pimentón de Murcia,other products of Annex I of the Treaty (spices etc.)
+Union Europea,Polvorones de Estepa,"Bread, pastry, cakes, confectionary, biscuits and other baker's wares"
+Union Europea,Priego de Córdoba,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Queso Manchego ,Cheeses
+Union Europea,Queso Tetilla / Queixo Tetilla,Cheeses
+Union Europea,Salchichón de Vic ; Llonganissa de Vic,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Sidra de Asturias ; Sidra d'Asturies,other products of Annex I of the Treaty (spices etc.)
+Union Europea,Sierra de Cádiz,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Sierra de Cazorla,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Sierra de Segura,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Sierra Mágina,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Siurana ,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Sobrasada de Mallorca,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Ternera Asturiana,Fresh meat (and offal)
+Union Europea,Ternera de Navarra ; Nafarroako Aratxea,Fresh meat (and offal)
+Union Europea,Ternera Gallega,Fresh meat (and offal)
+Union Europea,Torta del Casar,Cheese 
+Union Europea,Turrón de Alicante ,"Bread, pastry, cakes, confectionary, biscuits and other baker's wares"
+Union Europea,Vinagre de Jerez,other products of Annex I of the Treaty (spices etc.)
+Union Europea,Abondance ,Cheeses
+Union Europea,Banon,Cheeses
+Union Europea,Beaufort ,Cheeses
+Union Europea,Bleu d'Auvergne,Cheeses
+Union Europea,Bœuf de Charolles,Fresh meat (and offal)
+Union Europea,Brie de Meaux,Cheeses
+Union Europea,Brillat-Savarin,Cheeses
+Union Europea,Camembert de Normandie,Cheeses
+Union Europea,"Canard à foie gras du Sud-Ouest (Chalosse, Gascogne, Gers, Landes, Périgord, Quercy)","Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Cantal ; Fourme de Cantal ; Cantalet ,Cheeses
+Union Europea,Chabichou du Poitou,Cheeses
+Union Europea,Chaource ,Cheeses
+Union Europea,Comté ,Cheeses
+Union Europea,Crottin de Chavignol ; Chavignol,Cheeses
+Union Europea,Emmental de Savoie,Cheeses
+Union Europea,Époisses,Cheeses
+Union Europea,Fourme d'Ambert,Cheeses
+Union Europea,Génisse Fleur d'Aubrac,Fresh meat (and offal)
+Union Europea,Gruyère,Cheeses
+Union Europea,Huile d'olive de Haute-Provence,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Huile essentielle de lavande de Haute-Provence / Essence de lavande de Haute-Provence,Essential oils
+Union Europea,Huîtres Marennes Oléron,"Fresh fish, molluscs, and crustaceans and products derived therefrom"
+Union Europea,Jambon de Bayonne,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Lentille verte du Puy,"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Maroilles / Marolles,Cheeses
+Union Europea,Morbier,Cheeses
+Union Europea,Munster ; Munster-Géromé ,Cheeses
+Union Europea,Neufchâtel ,Cheeses
+Union Europea,Noix de Grenoble ,"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Pont-l'Évêque ,Cheeses
+Union Europea,Pruneaux d'Agen ; Pruneaux d'Agen mi-cuits,"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Reblochon ; Reblochon de Savoie,Cheeses
+Union Europea,Roquefort,Cheeses
+Union Europea,Sainte-Maure de Touraine,Cheeses
+Union Europea,Saint-Marcellin,Cheeses
+Union Europea,Saint-Nectaire ,Cheeses
+Union Europea,Tomme de Savoie,Cheeses
+Union Europea,Tomme des Pyrénées,Cheeses
+Union Europea,Veau d'Aveyron et du Ségala,Fresh meat (and offal)
+Union Europea,Veau du Limousin,Fresh meat (and offal)
+Union Europea,Volailles de Loué,Fresh meat (and offal)
+Union Europea,Baranjski kulen,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Dalmatinski pršut,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Istarski pršut / Istrski pršut ,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Krčki pršut,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Csabai kolbász/Csabai vastagkolbász,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Gyulai kolbász / Gyulai pároskolbász,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,"Kalocsai fűszerpaprika-őrlemény
+ ",other products of Annex I of the Treaty (spices etc.)
+Union Europea,Szegedi fűszerpaprika-őrlemény/Szegedi paprika,other products of Annex I of the Treaty (spices etc.)
+Union Europea,Szegedi szalámi ; Szegedi téliszalámi,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Clare Island Salmon,"Fresh fish, molluscs, and crustaceans and products derived therefrom"
+Union Europea,Imokilly Regato,Cheeses
+Union Europea,Aceto Balsamico di Modena,other products of Annex I of the Treaty (spices etc.)
+Union Europea,Aceto balsamico tradizionale di Modena,other products of Annex I of the Treaty (spices etc.)
+Union Europea,Aprutino Pescarese,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Asiago,Cheeses
+Union Europea,Bresaola della Valtellina,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Cantuccini Toscani / Cantucci Toscani,"Bread, pastry, cakes, confectionary, biscuits and other baker's wares"
+Union Europea,Coppa Piacentina,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Cotechino Modena,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Culatello di Zibello,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Fontina ,Cheeses
+Union Europea,Garda,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Gorgonzola ,Cheeses
+Union Europea,Grana Padano ,Cheeses
+Union Europea,Mela Alto Adige ; Südtiroler Apfel,"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Mela Val di Non,"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Montasio ,Cheeses
+Union Europea,Mortadella Bologna,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Mozzarella di Bufala Campana,Cheeses
+Union Europea,Pancetta Piacentina,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Parmigiano Reggiano,Cheeses
+Union Europea,Pasta di Gragnano,Pasta
+Union Europea,Pecorino Romano,Cheeses
+Union Europea,Pecorino Toscano,Cheeses
+Union Europea,Pomodoro S. Marzano dell'Agro Sarnese-Nocerino,"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Prosciutto di Modena,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Prosciutto di Norcia,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Prosciutto di Parma,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Prosciutto di San Daniele,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Prosciutto Toscano,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Provolone Valpadana,Cheeses
+Union Europea,Ragusano,Cheeses
+Union Europea,Salamini italiani alla cacciatora,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Speck Alto Adige / Südtiroler Markenspeck / Südtiroler Speck,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Taleggio,Cheeses
+Union Europea,Terra di Bari,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Toscano,"Oils and fats (butter, margarine, etc.)"
+Union Europea,"Veneto Valpolicella, Veneto Euganei e Berici, Veneto del Grappa","Oils and fats (butter, margarine, etc.)"
+Union Europea,Vitellone bianco dell'Appennino Centrale,Fresh meat (and offal)
+Union Europea,Zampone Modena,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Edam Holland,Cheeses
+Union Europea,Gouda Holland,Cheeses
+Union Europea,Kabanosy ,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Azeite de Moura,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Azeite do Alentejo Interior,"Oils and fats (butter, margarine, etc.)"
+Union Europea,"Azeites da Beira Interior (Azeite da Beira Alta, Azeite da Beira Baixa)","Oils and fats (butter, margarine, etc.)"
+Union Europea,Azeite de Trás-os-Montes,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Azeites do Norte Alentejano ,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Azeites do Ribatejo ,"Oils and fats (butter, margarine, etc.)"
+Union Europea,Chouriça de Carne de Vinhais ; Linguiça de Vinhais,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Chouriço de Portalegre,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Pêra Rocha do Oeste,"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Presunto de Barrancos /Paleta de Barrancos,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Queijo S. Jorge ,Cheeses
+Union Europea,Queijo Serra da Estrela ,Cheeses
+Union Europea,"Queijos da Beira Baixa (Queijo de Castelo Branco, Queijo Amarelo da Beira Baixa, Queijo Picante da Beira Baixa) ",Cheeses
+Union Europea,Magiun de prune Topoloveni,"Fruit, vegetables and cereals fresh or processed"
+Union Europea,Salam de Sibiu,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Telemea de Ibăneşti,Cheeses
+Union Europea,Kranjska klobasa,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Kraška pancetta ,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Kraški pršut,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Kraški zašink,"Meat products (cooked, salted, smoked, etc.)"
+Union Europea,Scotch Beef ,Fresh meat (and offal)
+Union Europea,Scottish Farmed Salmon,"Fresh fish, molluscs, and crustaceans and products derived therefrom"
+Union Europea,Welsh Beef,Fresh meat (and offal)
+Union Europea,Welsh lamb,Fresh meat (and offal)
+Union Europea,West Country farmhouse Cheddar cheese,Cheeses
+Union Europea,White Stilton cheese ; Blue Stilton cheese,Cheeses
+Efta,Aargau,Wine
+Efta,Abricotine / Eau-de-vie d’abricot du Valais,Spirit
+Efta,Absinthe du Val-de-Travers,Spirit
+Efta,Appenzell Ausserrhoden,Wine
+Efta,Appenzeller Mostbröckli,Meat
+Efta,Appenzeller Pantli,Meat
+Efta,Appenzeller Siedwurst,Meat
+Efta,Basel-Landschaft,Wine
+Efta,Basel-Stadt,Wine
+Efta,"Bern /
+Berne",Wine
+Efta,Berner Alpkäse / Berner Hobelkäse,Cheese
+Efta,Berner Zungenwurst,Meat
+Efta,"Bielersee /
+Lac de Bienne",Wine
+Efta,Bonvillars,Wine
+Efta,Boutefas,Meat
+Efta,"Bündnerfleisch /
+Viande des Grisons / 
+Carne secca dei Grigioni",Meat
+Efta,Calamin,Wine
+Efta,Cardon épineux genevois,Vegetable
+Efta,Chablais,Wine
+Efta,Château de Choully,Wine
+Efta,Château de Collex,Wine
+Efta,Château du Crest,Wine
+Efta,Cheyres,Wine
+Efta,Coteau de Bossy,Wine
+Efta,Coteau de Bourdigny,Wine
+Efta,Coteau de Chevrens,Wine
+Efta,Coteau de Choulex,Wine
+Efta,Coteau de Choully,Wine
+Efta,Coteau de Genthod,Wine
+Efta,Coteau de la vigne blanche,Wine
+Efta,Coteau de Lully,Wine
+Efta,Coteau de Peissy,Wine
+Efta,Coteau des Baillets,Wine
+Efta,Coteaux de Dardagny,Wine
+Efta,Coteaux de Peney,Wine
+Efta,Côtes de Landecy,Wine
+Efta,Côtes de Russin,Wine
+Efta,Côtes-de-l'Orbe,Wine
+Efta,Cuchaule / Freiburger Safranbrot,Bakery
+Efta,Damassine,Spirit
+Efta,Dézaley,Wine
+Efta,Dézaley-Marsens,Wine
+Efta,Dôle,Wine
+Efta,Domaine de l'Abbaye,Wine
+Efta,Dorin,Wine
+Efta,Eau-de-vie de poire du Valais,Spirit
+Efta,Ermitage du Valais / Hermitage du Valais,Wine
+Efta,Fendant,Wine
+Efta,Formaggio d'alpe ticinese,Cheese
+Efta,Genève,Wine
+Efta,"Glarner Alpkäse / 
+Fromage d'alpage glaronais / 
+Formaggio d’alpe glaronese",Cheese
+Efta,Glarner Kalberwurst,Meat
+Efta,Glarus,Wine
+Efta,Goron,Wine
+Efta,Grand Carraz,Wine
+Efta,Grappa Ticino,Spirit
+Efta,"Graubünden / 
+Grigioni",Wine
+Efta,Gruyère,Cheese
+Efta,Huile de noix vaudoise,Oil
+Efta,"Jambon cru du Valais / 
+Walliser Rohschinken",Meat
+Efta,Jambon de la Borne,Meat
+Efta,Johannisberg du Valais,Wine
+Efta,Jura,Wine
+Efta,La Côte,Wine
+Efta,La Feuillée,Wine
+Efta,"Lard sec du Valais / 
+Walliser Trockenspeck",Meat
+Efta,Lavaux,Wine
+Efta,L'Etivaz,Cheese
+Efta,Longeole,Meat
+Efta,Luzern,Wine
+Efta,Malvoisie du Valais,Wine
+Efta,Mandement de Jussy,Wine
+Efta,Munder Safran,Spice
+Efta,Neuchâtel,Wine
+Efta,Nidwalden,Wine
+Efta,Nostrano,Wine
+Efta,Obwalden,Wine
+Efta,Païen / Heida,Wine
+Efta,"Pain de seigle valaisan / 
+Walliser Roggenbrot",Bakery
+Efta,Poire à Botzi,Fruit
+Efta,"Raclette du Valais / 
+Walliser Raclette",Cheese
+Efta,Rheintaler Ribel / Türggen Ribel,Cereal
+Efta,Rougemont,Wine
+Efta,Salvagnin,Wine
+Efta,Saucisse aux choux vaudoise,Meat
+Efta,Saucisse d'Ajoie,Meat
+Efta,Saucisson neuchâtelois / Saucisse neuchâteloise,Meat
+Efta,Saucisson vaudois,Meat
+Efta,Sbrinz,Cheese
+Efta,Schaffhausen,Wine
+Efta,Schweizer Schokolade / Chocolat suisse / Cioccolato svizzero,Confectionery
+Efta,Schwyz,Wine
+Efta,Solothurn,Wine
+Efta,St. Gallen,Wine
+Efta,St. Galler Bratwurst / St. Galler Kalbsbratwurst,Meat
+Efta,St. Galler Alpkäse / Liechtensteiner Alpkäse,Cheese
+Efta,"Swiss / 
+Suisse / 
+Schweiz",Watch
+Efta,"Swiss / 
+Suisse / 
+Schweiz",Cosmetics
+Efta,"Tête de Moine / Tête de Moine, Fromage de Bellelay",Cheese
+Efta,Thunersee,Wine
+Efta,Thurgau,Wine
+Efta,Ticino / Bianco del Ticino / Rosato del Ticino / Rosso del Ticino,Wine
+Efta,Uri,Wine
+Efta,Vacherin fribourgeois,Cheese
+Efta,Vacherin Mont-d'Or,Cheese
+Efta,Valais / Wallis,Wine
+Efta,Vaud,Wine
+Efta,"Viande séchée du Valais / 
+Walliser Trockenfleisch",Meat
+Efta,Vully,Wine
+Efta,Werdenberger Sauerkäse / Liechtensteiner Sauerkäse / Bloderkäse,Cheese
+Efta,Zug,Wine
+Efta,Zuger Kirsch / Rigi Kirsch,Spirit
+Efta,Zuger Kirschtorte,Bakery
+Efta,Zürich,Wine
+Efta,Zürichsee,Wine
+Tratados,SATSUMA,LICOR (33)
+Tratados,"TEQUILA
+ MEZCAL",LICOR (33)
+Tratados,CANADIAN WHISKY/ WHISKYCANADIENSE,LICOR (33)
+Tratados,"ANXI TIEGUANYIN
+SHAOXING","TE (30)
+VINO (33)"
+Tratados,"BOSEONG
+KIMCHI COREANO
+GINSENG COREANO","TE (30)
+VERDURA (29)
+RAÍZ O PLANTA (31)"
+Tratados,"BOURBOUN WHISKEY
+TENESSEE WHISKEY",LICOR (33)
+Tratados,"Apendice acuerdo vinos y licores
+Anexo productos aliemnticios ",Vinos y licores (clase 33) / productos alimenticios
+Tratados,RAKI ,
+Tratados,Listado vinos ,
+Tratados,Listado,
+Vinos UE,Hagelandse wijn,
+Vinos UE,Côtes de Sambre et  Meuse,
+Vinos UE,Crémant de Wallonie,
+Vinos UE,Haspengouwse wijn,
+Vinos UE,Heuvellandse wijn,
+Vinos UE,"Vin de pays des  
+jardins de Wallonie",
+Vinos UE,"Vin mousseux de  
+qualité de Wallonie",
+Vinos UE,Vlaamse landwijn,
+Vinos UE,"Vlaamse 
+mousserende  
+kwaliteitswijn",
+Vinos UE,Cakap ,Sakar
+Vinos UE,Асеновград ,Asenovgrad
+Vinos UE,Болярово ,Bolyarovo
+Vinos UE,Брестник ,Brestnik
+Vinos UE,Варна ,Varna
+Vinos UE,Велики Преслав ,Veliki Preslav
+Vinos UE,Видин ,Vidin
+Vinos UE,Враца ,Vratsa
+Vinos UE,Върбица ,Varbitsa
+Vinos UE,Долината на Струма ,Struma valley
+Vinos UE,Драгоево ,Dragoevo
+Vinos UE,Дунавска равнина ,Danube Plain
+Vinos UE,Ивайловград ,Ivaylovgrad
+Vinos UE,Карлово ,Karlovo
+Vinos UE,Карнобат ,Karnobat
+Vinos UE,Ловеч ,Lovech
+Vinos UE,Лозица ,Lozitsa
+Vinos UE,Лом ,Lom
+Vinos UE,Любимец ,Lyubimets
+Vinos UE,Лясковец ,Lyaskovets
+Vinos UE,Мелник ,Melnik
+Vinos UE,Монтана ,Montana
+Vinos UE,Нова Загора ,Nova Zagora
+Vinos UE,Нови Пазар ,Novi Pazar
+Vinos UE,Ново село ,Novo Selo
+Vinos UE,Оряховица ,Oryahovitsa
+Vinos UE,Павликени ,Pavlikeni
+Vinos UE,Пазарджик ,Pazardjik
+Vinos UE,Перущица ,Perushtitsa
+Vinos UE,Плевен ,Pleven
+Vinos UE,Пловдив ,Plovdiv
+Vinos UE,Поморие ,Pomorie
+Vinos UE,Русе ,Ruse
+Vinos UE,Сандански ,Sandanski
+Vinos UE,Свищов ,Svishtov
+Vinos UE,Септември ,Septemvri
+Vinos UE,Славянци ,Slavyantsi
+Vinos UE,Сливен ,Sliven
+Vinos UE,Стамболово ,Stambolovo
+Vinos UE,Стара Загора ,Stara Zagora
+Vinos UE,Сунгурларе ,Sungurlare
+Vinos UE,Сухиндол ,Suhindol
+Vinos UE,Тракийска низина ,Thracian Lowlands
+Vinos UE,Хан Крум ,Khan Krum
+Vinos UE,Хасково ,Haskovo
+Vinos UE,Хисаря ,Hisarya
+Vinos UE,Хърсово ,Harsovo
+Vinos UE,Черноморски район ,Black Sea Region
+Vinos UE,Шивачево ,Shivachevo
+Vinos UE,Шумен ,Shumen
+Vinos UE,Южно Черноморие ,"Southern Black Sea  
+Coast"
+Vinos UE,Ямбол ,Yambol
+Vinos UE,české,
+Vinos UE,Litoměřická,
+Vinos UE,Mělnická,
+Vinos UE,Mikulovská,
+Vinos UE,moravské,
+Vinos UE,Slovácká,
+Vinos UE,Velkopavlovická,
+Vinos UE,Znojemská,
+Vinos UE,"Novosedelské  
+Slámové víno",
+Vinos UE,Šobes,
+Vinos UE,Šobeské víno,
+Vinos UE,Znojmo,
+Vinos UE,Čechy,
+Vinos UE,Morava,
+Vinos UE,Bornholm,
+Vinos UE,Fyn,
+Vinos UE,Jylland,
+Vinos UE,Sjælland,
+Vinos UE,Ahr,
+Vinos UE,Ahrtaler Landwein,
+Vinos UE,Baden,
+Vinos UE,"Bayerischer  
+Bodensee-Landwein",
+Vinos UE,Landwein der Mosel,
+Vinos UE,Landwein der Ruwer,
+Vinos UE,Landwein der Saar,
+Vinos UE,"Mecklenburger  
+Landwein",
+Vinos UE,"Mitteldeutscher  
+Landwein",
+Vinos UE,Mittelrhein,
+Vinos UE,Mosel,
+Vinos UE,Nahe,
+Vinos UE,Nahegauer Landwein,
+Vinos UE,Pfalz,
+Vinos UE,Pfälzer Landwein,
+Vinos UE,"Regensburger  
+Landwein",
+Vinos UE,"Rheinburgen 
+Landwein",
+Vinos UE,Rheingau,
+Vinos UE,Rheingauer Landwein,
+Vinos UE,Rheinhessen,
+Vinos UE,Rheinischer Landwein,
+Vinos UE,Saale-Unstrut,
+Vinos UE,Sachsen,
+Vinos UE,Sächsischer Landwein,
+Vinos UE,"Schwäbischer  
+Landwein",
+Vinos UE,"Starkenburger  
+Landwein",
+Vinos UE,Taubertäler Landwein,
+Vinos UE,Württemberg,
+Vinos UE,Badischer Landwein,
+Vinos UE,Hessische Bergstraße,
+Vinos UE,Landwein Main,
+Vinos UE,Landwein Neckar,
+Vinos UE,Landwein Oberrhein,
+Vinos UE,Landwein Rhein,
+Vinos UE,"Saarländischer  
+Landwein",
+Vinos UE,"Landwein Rhein 
+Neckar",
+Vinos UE,"Schleswig 
+Holsteinischer  
+Landwein",
+Vinos UE,Λασίθι ,Lasithi
+Vinos UE,Ρετσίνα Κρωπίας,"Ρετσίνα Κορωπίου 
+Αττικής/Retsina of  
+Koropi/Retsina of  
+Koropi Attiki"
+Vinos UE,Kως ,Kos
+Vinos UE,Malvasia Πάρος ,Malvasia Paros
+Vinos UE,Malvasia Σητείας ,Malvasia Sitia
+Vinos UE,Malvasia Χάνδακας Candia,
+Vinos UE,Άβδηρα ,Avdira
+Vinos UE,Άγιο Όρος,"Mount Athos/ Holly Mount Athos/Holly  
+Mountain Athos/Mont  Athos/Άγιο Όρος Άθως"
+Vinos UE,Αγορά ,Agora
+Vinos UE,Αγχίαλος ,Anchialos
+Vinos UE,Αιγαίο Πέλαγος ,"Aegean Sea/Aigaio  
+Pelagos"
+Vinos UE,Αμύνταιο ,Amyndeon
+Vinos UE,Ανάβυσσος ,Anavyssos
+Vinos UE,Αργολίδα ,Argolida
+Vinos UE,Αρκαδία ,Arkadia
+Vinos UE,Αρχάνες ,Archanes
+Vinos UE,Αττική ,Attiki
+Vinos UE,Αχαΐα ,Achaia
+Vinos UE,Βελβεντό ,Velvento
+Vinos UE,Βερντέα Ζακύνθου ,Verdean of Zakynthos
+Vinos UE,Γεράνεια ,Gerania
+Vinos UE,Γουμένισσα ,Goumenissa
+Vinos UE,Γρεβενά ,Grevena
+Vinos UE,Δαφνές ,Dafnes
+Vinos UE,Δράμα ,Drama
+Vinos UE,Δωδεκάνησος ,Dodekanese
+Vinos UE,Έβρος ,Evros
+Vinos UE,Επανομή ,Epanomi
+Vinos UE,Εύβοια ,Evia
+Vinos UE,Ζάκυνθος ,Zakynthos
+Vinos UE,Ζίτσα ,Zitsa
+Vinos UE,Ηλεία ,Ilia
+Vinos UE,Ημαθία ,Imathia
+Vinos UE,Ήπειρος ,Epirus
+Vinos UE,Ηράκλειο ,Iraklio
+Vinos UE,Θάσος ,Thasos
+Vinos UE,Θαψανά ,Thapsana
+Vinos UE,Θεσσαλία ,Thessalia
+Vinos UE,Θεσσαλονίκη ,Thessaloniki
+Vinos UE,Θήβα ,Thiva
+Vinos UE,Θράκη ,Thrace
+Vinos UE,Ικαρία ,Ikaria
+Vinos UE,Ίλιον ,Ilion
+Vinos UE,Ίσμαρος ,Ismaros
+Vinos UE,Ιωάννινα ,Ioannina
+Vinos UE,Καβάλα ,Kavala
+Vinos UE,Καρδίτσα ,Karditsa
+Vinos UE,Κάρυστος ,Karystos
+Vinos UE,Καστοριά ,Kastoria
+Vinos UE,Κέρκυρα ,Corfu
+Vinos UE,Κίσσαμος ,Kissamos
+Vinos UE,Κλημέντι ,Klimenti
+Vinos UE,Κοζάνη ,Kozani
+Vinos UE,Κοιλάδα Αταλάντης ,Atalanti Valley
+Vinos UE,Κόρινθος ,"Κορινθία  
+/Korinthos/Korinthia"
+Vinos UE,Κρανιά ,Krania
+Vinos UE,Κραννώνα ,Krannona
+Vinos UE,Κρήτη ,Crete
+Vinos UE,Λακωνία ,Lakonia
+Vinos UE,Λέσβος ,Lesvos
+Vinos UE,Λετρίνοι ,Letrini
+Vinos UE,Λευκάδα ,Lefkada
+Vinos UE,Ληλάντιο Πεδίο ,Lilantio Pedio/Lilantio  Field
+Vinos UE,Λήμνος ,Limnos
+Vinos UE,Μαγνησία ,Magnisia
+Vinos UE,Μακεδονία ,Macedonia
+Vinos UE,Μαντζαβινάτα ,Mantzavinata
+Vinos UE,Μαντινεία ,Mantinia
+Vinos UE,Μαρκόπουλο ,Markopoulo
+Vinos UE,Μαρτίνο ,Martino
+Vinos UE,"Μαυροδάφνη  
+Κεφαλληνίας","Mavrodaphne of  
+Kefalonia"
+Vinos UE,"Μαυροδάφνη  
+Πατρών ",Mavrodaphni of Patra
+Vinos UE,Μεσενικόλα ,Mesenikola
+Vinos UE,Μεσσηνία ,Messinia
+Vinos UE,Μεταξάτων ,Metaxata
+Vinos UE,Μετέωρα ,Meteora
+Vinos UE,Μέτσοβο ,Metsovo
+Vinos UE,"Μονεμβασία 
+Malvasia ",Monemvasia-Malvasia
+Vinos UE,Μοσχάτο Πατρών ,Muscat of Patra
+Vinos UE,"Μοσχάτος  
+Κεφαλληνίας",Muscat of Kefalonia /  Muscat de Céphalonie 
+Vinos UE,Μοσχάτος Λήμνου ,Muscat of Limnos
+Vinos UE,"Μοσχάτος Ρίου  
+Πάτρας ",Μuscat of Rio Patra
+Vinos UE,Μοσχάτος Ρόδου ,Muscat of Rodos
+Vinos UE,Νάουσα ,Naoussa
+Vinos UE,Νέα Μεσημβρία ,Nea Mesimvria
+Vinos UE,Νεμέα ,Nemea
+Vinos UE,Οπούντια Λοκρίδας ,Opountia Locris
+Vinos UE,Παγγαίο ,Paggeo /Pangeon
+Vinos UE,Παλλήνη ,Pallini
+Vinos UE,Πάρος ,Paros
+Vinos UE,Πάτρα ,Patra
+Vinos UE,Πεζά ,Peza
+Vinos UE,Πέλλα ,Pella
+Vinos UE,Πελοπόννησος ,Peloponnese
+Vinos UE,Πιερία ,Pieria
+Vinos UE,Πισάτις ,Pisatis
+Vinos UE,Πλαγιές Αιγιαλείας ,Slopes of Aigialia
+Vinos UE,Πλαγιές Αίνου ,Slopes of Ainos
+Vinos UE,Πλαγιές Αμπέλου ,Slopes of ampelos
+Vinos UE,Πλαγιές Βερτίσκου ,Slopes of Vertiskos
+Vinos UE,Πλαγιές Κιθαιρώνα ,Slopes of Kithaironas
+Vinos UE,Πλαγιές Κνημίδας ,Slopes of Knimida
+Vinos UE,Πλαγιές Μελίτωνα ,Slopes of Meliton
+Vinos UE,Πλαγιές Πάικου ,Slopes of Paiko
+Vinos UE,Πλαγιές Πάρνηθας ,Slopes of Parnitha
+Vinos UE,Πλαγιές Πεντελικού,"Slopes of Pendeliko / Βόρειες Πλαγιές  
+Πεντελικού"
+Vinos UE,Πυλία ,Pylia
+Vinos UE,Ραψάνη ,Rapsani
+Vinos UE,Ρέθυμνο ,Rethimno
+Vinos UE,Ρετσίνα Αττικής ,Retsina of Attiki
+Vinos UE,Ρετσίνα Βοιωτίας ,Retsina of Viotia
+Vinos UE,Ρετσίνα Γιάλτρων ,Retsina of Gialtra
+Vinos UE,Ρετσίνα Εύβοιας ,Retsina of Evoia
+Vinos UE,"Ρετσίνα Θηβών  
+(Βοιωτίας)","Retsina of Thebes  
+(Voiotias)"
+Vinos UE,Ρετσίνα Καρύστου ,Retsina of Karystos
+Vinos UE,Ρετσίνα Κορωπίου,"Ρετσίνα Κορωπίου 
+Αττικής/Retsina of  
+Koropi/Retsina of  
+Koropi Attiki"
+Vinos UE,"Ρετσίνα 
+Μαρκόπουλου  
+(Αττικής)",Retsina of Markopoulo  (Attiki)
+Vinos UE,Ρετσίνα Μεγάρων ,"Retsina of Megara  
+(Attiki)"
+Vinos UE,Ρετσίνα Μεσογείων  (Αττικής),"Retsina of Mesogia  
+(Attiki)"
+Vinos UE,Ρετσίνα Παλλήνης ,"Retsina of Pikermi  
+(Attiki) "
+Vinos UE,Ρετσίνα Πικερμίου,"Ρετσίνα Πικερμίου 
+(Αττικής) /Retsina of  Pikermi (Attiki)"
+Vinos UE,Ρετσίνα Σπάτων,"Ρετσίνα Σπάτων 
+(Αττικής) / Retsina of  Spata (Attiki)"
+Vinos UE,"Ρετσίνα Χαλκίδας  
+(Ευβοίας)","Retsina of Halkida  
+(Evoia)"
+Vinos UE,Ριτσώνα ,Ritsona 
+Vinos UE,Ρόδος ,Rhodes
+Vinos UE,"Ρομπόλα  
+Κεφαλληνίας ",Robola of Kefalonia
+Vinos UE,Σάμος ,Samos
+Vinos UE,Σαντορίνη ,Santorini
+Vinos UE,Σέρρες ,Serres
+Vinos UE,Σητεία ,Sitia
+Vinos UE,Σιάτιστα ,Siatista
+Vinos UE,Σιθωνία ,Sithonia
+Vinos UE,Σπάτα ,Spata
+Vinos UE,Στερεά Ελλάδα ,Sterea Ellada
+Vinos UE,Τεγέα ,Tegea
+Vinos UE,Τριφυλία ,Trifilia
+Vinos UE,Τύρναβος ,Tyrnavos
+Vinos UE,Φθιώτιδα ,Fthiotida/Phthiotis
+Vinos UE,Φλώρινα ,Florina
+Vinos UE,Χαλικούνα ,Halikouna
+Vinos UE,Χαλκιδική ,Halkidiki
+Vinos UE,Χάνδακας - Candia ,Candia
+Vinos UE,Χανιά ,Chania
+Vinos UE,Χίος ,Chios
+Vinos UE,Ρετσίνα Λιοπεσίου,"Ρετσίνα Παιανίας
+Αττικής/Retsina of  
+Paiania /Retsina of  
+Paiania Attiki"
+Vinos UE,Abona,
+Vinos UE,Alella,
+Vinos UE,Alicante,
+Vinos UE,Bailén,
+Vinos UE,Bajo Aragón,
+Vinos UE,Betanzos,
+Vinos UE,Bierzo,
+Vinos UE,Bullas,
+Vinos UE,Cádiz,
+Vinos UE,Calatayud,
+Vinos UE,Campo de Borja,
+Vinos UE,Campo de Cartagena,
+Vinos UE,Cangas,
+Vinos UE,Cariñena,
+Vinos UE,Castilla,
+Vinos UE,Castilla y León,
+Vinos UE,Cataluña,
+Vinos UE,Cava,
+Vinos UE,Cigales,
+Vinos UE,Condado de Huelva,
+Vinos UE,Córdoba,
+Vinos UE,Costers del Segre,
+Vinos UE,Desierto de Almería,
+Vinos UE,"Dominio de  
+Valdepusa",
+Vinos UE,El Terrerazo,
+Vinos UE,Extremadura,
+Vinos UE,Gran Canaria,
+Vinos UE,Guijoso,
+Vinos UE,Ibiza,
+Vinos UE,Illes Balears,
+Vinos UE,Jumilla,
+Vinos UE,La Gomera,
+Vinos UE,Lanzarote,
+Vinos UE,Málaga,
+Vinos UE,Manzanilla,
+Vinos UE,Méntrida,
+Vinos UE,Mondéjar,
+Vinos UE,Monterrei,
+Vinos UE,Montilla-Moriles,
+Vinos UE,Montsant,
+Vinos UE,Navarra,
+Vinos UE,Pla de Bages,
+Vinos UE,Pla i Llevant,
+Vinos UE,Rías Baixas,
+Vinos UE,Ribeira Sacra,
+Vinos UE,Ribeiro,
+Vinos UE,Ribera del Duero,
+Vinos UE,Ribera del Júcar,
+Vinos UE,Rioja,
+Vinos UE,Rueda,
+Vinos UE,Sierras de Málaga,
+Vinos UE,Somontano,
+Vinos UE,Tacoronte-Acentejo,
+Vinos UE,Tarragona,
+Vinos UE,Terra Alta,
+Vinos UE,"Tierra del Vino de  
+Zamora",
+Vinos UE,Toro,
+Vinos UE,Utiel-Requena,
+Vinos UE,Valdejalón,
+Vinos UE,Valdeorras,
+Vinos UE,Valdepeñas,
+Vinos UE,Valencia,
+Vinos UE,Valle de Güímar,
+Vinos UE,Valle de la Orotava,
+Vinos UE,Valle del Cinca,
+Vinos UE,Vinos de Madrid,
+Vinos UE,Ycoden-Daute-Isora,
+Vinos UE,Yecla,
+Vinos UE,Arribes,
+Vinos UE,Binissalem,
+Vinos UE,Bizkaiko Txakolina,
+Vinos UE,Calzadilla,
+Vinos UE,Castelló,
+Vinos UE,Chacolí de Álava,
+Vinos UE,Chacolí de Bizkaia,
+Vinos UE,Chacolí de Getaria,
+Vinos UE,Conca de Barberà,
+Vinos UE,El Hierro,
+Vinos UE,Formentera,
+Vinos UE,Getariako Txakolina,
+Vinos UE,Granada,
+Vinos UE,Jerez,
+Vinos UE,Jerez-Xérès-Sherry,
+Vinos UE,La Mancha,
+Vinos UE,La Palma,
+Vinos UE,Laujar-Alpujarra,
+Vinos UE,Lebrija,
+Vinos UE,Los Palacios,
+Vinos UE,Mallorca,
+Vinos UE,Manzanilla-Sanlúcar  de Barrameda,
+Vinos UE,Penedès,
+Vinos UE,Priorat,
+Vinos UE,Ribera del Andarax,
+Vinos UE,Ribera del Gállego - Cinco Villas,
+Vinos UE,Ribera del Guadiana,
+Vinos UE,Ribera del Jiloca,
+Vinos UE,Sherry,
+Vinos UE,Tierra de León,
+Vinos UE,Txakolí de Álava,
+Vinos UE,Txakolí de Bizkaia,
+Vinos UE,Txakolí de Getaria,
+Vinos UE,Uclés,
+Vinos UE,Val do Miño-Ourense,
+Vinos UE,Xérès,
+Vinos UE,3 Riberas,
+Vinos UE,"Altiplano de Sierra  
+Nevada",
+Vinos UE,Arabako Txakolina,
+Vinos UE,Arlanza,
+Vinos UE,Aylés,
+Vinos UE,Barbanza e Iria,
+Vinos UE,Campo de La Guardia,
+Vinos UE,Casa del Blanco,
+Vinos UE,Costa de Cantabria,
+Vinos UE,"Cumbres del  
+Guadalfeo",
+Vinos UE,Dehesa del Carrizal,
+Vinos UE,Eivissa,
+Vinos UE,Empordà,
+Vinos UE,Finca Élez,
+Vinos UE,Illa de Menorca,
+Vinos UE,Isla de Menorca,
+Vinos UE,Islas Canarias,
+Vinos UE,Laderas del Genil,
+Vinos UE,Liébana,
+Vinos UE,Los Balagueses,
+Vinos UE,Murcia,
+Vinos UE,Norte de Almería,
+Vinos UE,Pago de Arínzano,
+Vinos UE,Pago Florentino,
+Vinos UE,Prado de Irache,
+Vinos UE,Serra de Tramuntana Costa Nord,
+Vinos UE,Sierra de Salamanca,
+Vinos UE,Sierra Norte de Sevilla,
+Vinos UE,Sierra Sur de Jaén,
+Vinos UE,"Sierras de Las 
+Estancias y Los  
+Filabres",
+Vinos UE,Torreperogil,
+Vinos UE,Valles de Benavente,
+Vinos UE,Valles de Sadacia,
+Vinos UE,Valtiendas,
+Vinos UE,"Villaviciosa de  
+Córdoba",
+Vinos UE,Agenais,
+Vinos UE,Ain,
+Vinos UE,Ajaccio,
+Vinos UE,Aloxe-Corton,
+Vinos UE,Alsace,
+Vinos UE,Anjou,
+Vinos UE,Arbois,
+Vinos UE,Ardèche,
+Vinos UE,Ariège,
+Vinos UE,Aude,
+Vinos UE,Auxey-Duresses,
+Vinos UE,Aveyron,
+Vinos UE,Bandol,
+Vinos UE,Banyuls,
+Vinos UE,Banyuls grand cru,
+Vinos UE,Barsac,
+Vinos UE,Bâtard-Montrachet,
+Vinos UE,Béarn,
+Vinos UE,Beaujolais,
+Vinos UE,Bellet,
+Vinos UE,Bergerac,
+Vinos UE,Blagny,
+Vinos UE,Blanc Fumé de Pouilly,
+Vinos UE,Blaye,
+Vinos UE,Bonnezeaux,
+Vinos UE,Bordeaux,
+Vinos UE,Bordeaux supérieur,
+Vinos UE,Bourg,
+Vinos UE,Bourgeais,
+Vinos UE,Bourgogne,
+Vinos UE,Bourgogne aligoté,
+Vinos UE,Bourgogne mousseux,
+Vinos UE,"Bourgogne Passe 
+tout-grains",
+Vinos UE,Bourgueil,
+Vinos UE,Bouzeron,
+Vinos UE,Brouilly,
+Vinos UE,Bugey,
+Vinos UE,Buzet,
+Vinos UE,Cabardès,
+Vinos UE,Cadillac,
+Vinos UE,Cahors,
+Vinos UE,Cassis,
+Vinos UE,Cérons,
+Vinos UE,Cévennes,
+Vinos UE,Chablis,
+Vinos UE,Chablis grand cru,
+Vinos UE,Chambertin,
+Vinos UE,Chambolle-Musigny,
+Vinos UE,Champagne,
+Vinos UE,Chapelle-Chambertin,
+Vinos UE,Charlemagne,
+Vinos UE,Charmes-Chambertin,
+Vinos UE,"Chassagne 
+Montrachet",
+Vinos UE,Châteaumeillant,
+Vinos UE,Châteauneuf-du-Pape,
+Vinos UE,Châtillon-en-Diois,
+Vinos UE,Chevalier-Montrachet,
+Vinos UE,Cheverny,
+Vinos UE,Chiroubles,
+Vinos UE,Chorey-lès-Beaune,
+Vinos UE,Cité de Carcassonne,
+Vinos UE,Clos de la Roche,
+Vinos UE,Clos de Tart,
+Vinos UE,Clos de Vougeot,
+Vinos UE,Clos des Lambrays,
+Vinos UE,Clos Saint-Denis,
+Vinos UE,"Collines  
+Rhodaniennes",
+Vinos UE,Collioure,
+Vinos UE,Comté Tolosan,
+Vinos UE,Comtés Rhodaniens,
+Vinos UE,Condrieu,
+Vinos UE,Corbières,
+Vinos UE,Corbières-Boutenac,
+Vinos UE,Cornas,
+Vinos UE,Corrèze,
+Vinos UE,Corton,
+Vinos UE,Corton-Charlemagne,
+Vinos UE,Costières de Nîmes,
+Vinos UE,Côte de Beaune,
+Vinos UE,"Côte de Beaune 
+Villages",
+Vinos UE,Côte de Brouilly,
+Vinos UE,Côte Roannaise,
+Vinos UE,Côte Rôtie,
+Vinos UE,Côte Vermeille,
+Vinos UE,Coteaux champenois,
+Vinos UE,"Coteaux d'Aix-en 
+Provence",
+Vinos UE,Coteaux de Coiffy,
+Vinos UE,Coteaux de Die,
+Vinos UE,Coteaux de Glanes,
+Vinos UE,Coteaux de l’Auxois,
+Vinos UE,Coteaux de l'Aubance,
+Vinos UE,Coteaux de Narbonne,
+Vinos UE,Coteaux de Peyriac,
+Vinos UE,Coteaux de Saumur,
+Vinos UE,Coteaux du Giennois,
+Vinos UE,Coteaux du Layon,
+Vinos UE,Coteaux du Libron,
+Vinos UE,Coteaux du Loir,
+Vinos UE,Coteaux du Lyonnais,
+Vinos UE,Coteaux du Pont du  Gard,
+Vinos UE,Coteaux du Quercy,
+Vinos UE,"Coteaux du  
+Vendômois",
+Vinos UE,Côtes Catalanes,
+Vinos UE,Côtes de Bergerac,
+Vinos UE,Côtes de Blaye,
+Vinos UE,Côtes de Bordeaux,
+Vinos UE,Côtes de Bourg,
+Vinos UE,Côtes de Duras,
+Vinos UE,Côtes de Gascogne,
+Vinos UE,Côtes de Millau,
+Vinos UE,Côtes de Montravel,
+Vinos UE,Côtes de Provence,
+Vinos UE,Côtes de Thongue,
+Vinos UE,Côtes de Toul,
+Vinos UE,Côtes du Forez,
+Vinos UE,Côtes du Marmandais,
+Vinos UE,Côtes du Rhône,
+Vinos UE,"Côtes du Rhône  
+Villages",
+Vinos UE,Côtes du Roussillon,
+Vinos UE,Côtes du Roussillon  Villages,
+Vinos UE,Côtes du Tarn,
+Vinos UE,Côtes du Vivarais,
+Vinos UE,Cour-Cheverny,
+Vinos UE,Crozes-Hermitage,
+Vinos UE,Drôme,
+Vinos UE,Duché d’Uzès,
+Vinos UE,Echezeaux,
+Vinos UE,Entre-deux-Mers,
+Vinos UE,Ermitage,
+Vinos UE,Estaing,
+Vinos UE,Faugères,
+Vinos UE,Fitou,
+Vinos UE,Fixin,
+Vinos UE,Fleurie,
+Vinos UE,Floc de Gascogne,
+Vinos UE,Franche-Comté,
+Vinos UE,Fronsac,
+Vinos UE,Frontignan,
+Vinos UE,Gaillac,
+Vinos UE,"Gaillac premières  
+côtes",
+Vinos UE,Gard,
+Vinos UE,Gers,
+Vinos UE,Gevrey-Chambertin,
+Vinos UE,Givry,
+Vinos UE,Graves,
+Vinos UE,Graves de Vayres,
+Vinos UE,Griotte-Chambertin,
+Vinos UE,"Gros Plant du Pays  
+nantais",
+Vinos UE,Haute Vallée de l'Orb,
+Vinos UE,Haute-Marne,
+Vinos UE,Hautes-Alpes,
+Vinos UE,Haute-Vienne,
+Vinos UE,Haut-Médoc,
+Vinos UE,Haut-Montravel,
+Vinos UE,Hermitage,
+Vinos UE,Irouléguy,
+Vinos UE,Isère,
+Vinos UE,Jasnières,
+Vinos UE,Juliénas,
+Vinos UE,Jurançon,
+Vinos UE,La Grande Rue,
+Vinos UE,Ladoix,
+Vinos UE,Landes,
+Vinos UE,"Latricières 
+Chambertin",
+Vinos UE,Lavilledieu,
+Vinos UE,L'Etoile,
+Vinos UE,Limoux,
+Vinos UE,Lirac,
+Vinos UE,Listrac-Médoc,
+Vinos UE,Lot,
+Vinos UE,Loupiac,
+Vinos UE,Lussac Saint-Emilion,
+Vinos UE,Mâcon,
+Vinos UE,Macvin du Jura,
+Vinos UE,Marcillac,
+Vinos UE,Margaux,
+Vinos UE,Marsannay,
+Vinos UE,Maures,
+Vinos UE,Maury,
+Vinos UE,Mazis-Chambertin,
+Vinos UE,"Mazoyères 
+Chambertin",
+Vinos UE,Médoc,
+Vinos UE,Mercurey,
+Vinos UE,Meursault,
+Vinos UE,Minervois,
+Vinos UE,Minervois-la-Livinière,
+Vinos UE,Monbazillac,
+Vinos UE,Mont Caume,
+Vinos UE,Montagny,
+Vinos UE,Monthélie,
+Vinos UE,Montrachet,
+Vinos UE,Montravel,
+Vinos UE,Morey-Saint-Denis,
+Vinos UE,Morgon,
+Vinos UE,Moselle,
+Vinos UE,Moulin-à-Vent,
+Vinos UE,Moulis,
+Vinos UE,Moulis-en-Médoc,
+Vinos UE,Muscadet,
+Vinos UE,Muscadet Coteaux de  la Loire,
+Vinos UE,Muscadet Côtes de  Grandlieu,
+Vinos UE,Musigny,
+Vinos UE,Nuits-Saint-Georges,
+Vinos UE,Pacherenc du Vic-Bilh,
+Vinos UE,Palette,
+Vinos UE,Pauillac,
+Vinos UE,Pécharmant,
+Vinos UE,Périgord,
+Vinos UE,Pernand-Vergelesses,
+Vinos UE,Pessac-Léognan,
+Vinos UE,Pomerol,
+Vinos UE,Pommard,
+Vinos UE,Pouilly-Fuissé,
+Vinos UE,Pouilly-Loché,
+Vinos UE,Pouilly-sur-Loire,
+Vinos UE,Pouilly-Vinzelles,
+Vinos UE,Premières Côtes de  Bordeaux,
+Vinos UE,"Puisseguin Saint 
+Emilion",
+Vinos UE,Puligny-Montrachet,
+Vinos UE,Quincy,
+Vinos UE,Régnié,
+Vinos UE,Reuilly,
+Vinos UE,Richebourg,
+Vinos UE,Rivesaltes,
+Vinos UE,Rosette,
+Vinos UE,"Ruchottes 
+Chambertin",
+Vinos UE,Rully,
+Vinos UE,Saint-Amour,
+Vinos UE,Saint-Aubin,
+Vinos UE,Saint-Chinian,
+Vinos UE,Sainte-Croix-du-Mont,
+Vinos UE,Saint-Emilion,
+Vinos UE,Saint-Emilion Grand  Cru,
+Vinos UE,Saint-Estèphe,
+Vinos UE,Saint-Joseph,
+Vinos UE,Saint-Julien,
+Vinos UE,Saint-Péray,
+Vinos UE,Saint-Pourçain,
+Vinos UE,Saint-Romain,
+Vinos UE,Saint-Sardos,
+Vinos UE,Saint-Véran,
+Vinos UE,Sancerre,
+Vinos UE,Santenay,
+Vinos UE,Saumur,
+Vinos UE,Saussignac,
+Vinos UE,Sauternes,
+Vinos UE,Savennières,
+Vinos UE,Savigny-lès-Beaune,
+Vinos UE,Seyssel,
+Vinos UE,Tavel,
+Vinos UE,Thézac-Perricard,
+Vinos UE,Torgan,
+Vinos UE,Touraine,
+Vinos UE,Touraine Noble Joué,
+Vinos UE,Tursan,
+Vinos UE,Urfé,
+Vinos UE,Vacqueyras,
+Vinos UE,Val de Loire,
+Vinos UE,Valençay,
+Vinos UE,Vallée du Paradis,
+Vinos UE,Var,
+Vinos UE,Vaucluse,
+Vinos UE,Vicomté d'Aumelas,
+Vinos UE,Volnay,
+Vinos UE,Vosne-Romanée,
+Vinos UE,Vougeot,
+Vinos UE,Vouvray,
+Vinos UE,"Alpes-de-Haute- 
+Provence",
+Vinos UE,Alpes-Maritimes,
+Vinos UE,"Alsace grand cru 
+Altenberg de  
+Bergbieten",
+Vinos UE,"Alsace grand cru 
+Altenberg de  
+Bergheim",
+Vinos UE,"Alsace grand cru 
+Altenberg de  
+Wolxheim",
+Vinos UE,"Alsace grand cru  
+Brand",
+Vinos UE,"Alsace grand cru  
+Bruderthal",
+Vinos UE,"Alsace grand cru  
+Eichberg",
+Vinos UE,"Alsace grand cru  
+Engelberg",
+Vinos UE,"Alsace grand cru  
+Florimont",
+Vinos UE,"Alsace grand cru  
+Frankstein",
+Vinos UE,"Alsace grand cru  
+Froehn",
+Vinos UE,"Alsace grand cru  
+Furstentum",
+Vinos UE,"Alsace grand cru  
+Geisberg",
+Vinos UE,"Alsace grand cru  
+Gloeckelberg",
+Vinos UE,"Alsace grand cru  
+Goldert",
+Vinos UE,"Alsace grand cru  
+Hatschbourg",
+Vinos UE,"Alsace grand cru  
+Hengst",
+Vinos UE,"Alsace grand cru  
+Kanzlerberg",
+Vinos UE,"Alsace grand cru  
+Kastelberg",
+Vinos UE,"Alsace grand cru  
+Kessler",
+Vinos UE,"Alsace grand cru  
+Kirchberg de Barr",
+Vinos UE,"Alsace grand cru 
+Kirchberg de  
+Ribeauvillé",
+Vinos UE,"Alsace grand cru  
+Kitterlé",
+Vinos UE,"Alsace grand cru  
+Mambourg",
+Vinos UE,"Alsace grand cru  
+Mandelberg",
+Vinos UE,"Alsace grand cru  
+Marckrain",
+Vinos UE,"Alsace grand cru  
+Moenchberg",
+Vinos UE,"Alsace grand cru  
+Muenchberg",
+Vinos UE,"Alsace grand cru  
+Ollwiller",
+Vinos UE,"Alsace grand cru  
+Pfersigberg",
+Vinos UE,"Alsace grand cru  
+Pfingstberg",
+Vinos UE,"Alsace grand cru  
+Praelatenberg",
+Vinos UE,"Alsace grand cru  
+Rangen",
+Vinos UE,"Alsace grand cru  
+Rosacker",
+Vinos UE,"Alsace grand cru  
+Saering",
+Vinos UE,"Alsace grand cru  
+Schlossberg",
+Vinos UE,"Alsace grand cru  
+Schoenenbourg",
+Vinos UE,"Alsace grand cru  
+Sommerberg",
+Vinos UE,"Alsace grand cru  
+Sonnenglanz",
+Vinos UE,"Alsace grand cru  
+Spiegel",
+Vinos UE,"Alsace grand cru  
+Sporen",
+Vinos UE,"Alsace grand cru  
+Steinert",
+Vinos UE,"Alsace grand cru  
+Steingrubler",
+Vinos UE,"Alsace grand cru  
+Steinklotz",
+Vinos UE,"Alsace grand cru  
+Vorbourg",
+Vinos UE,"Alsace grand cru  
+Wiebelsberg",
+Vinos UE,"Alsace grand cru  
+Wineck-Schlossberg",
+Vinos UE,"Alsace grand cru  
+Winzenberg",
+Vinos UE,"Alsace grand cru  
+Zinnkoepflé",
+Vinos UE,"Alsace grand cru  
+Zotzenberg",
+Vinos UE,Anjou Villages,
+Vinos UE,Anjou Villages Brissac,
+Vinos UE,Anjou-Coteaux de la  Loire,
+Vinos UE,Beaumes de Venise,
+Vinos UE,Bienvenues-Bâtard- Montrachet,
+Vinos UE,Bonnes-Mares,
+Vinos UE,Bouches-du-Rhône,
+Vinos UE,"Bourgogne grand  
+ordinaire",
+Vinos UE,Cabernet d'Anjou,
+Vinos UE,Cabernet de Saumur,
+Vinos UE,Chambertin-Clos de  Bèze,
+Vinos UE,Château-Chalon,
+Vinos UE,Château-Grillet,
+Vinos UE,Chénas,
+Vinos UE,Chinon,
+Vinos UE,"Clairette de  
+Bellegarde",
+Vinos UE,Clairette de Die,
+Vinos UE,"Clairette du  
+Languedoc",
+Vinos UE,Corse,
+Vinos UE,Coteaux d’Ensérune,
+Vinos UE,Coteaux d'Ancenis,
+Vinos UE,"Coteaux des  
+Baronnies",
+Vinos UE,Coteaux du Cher et de  l'Arnon,
+Vinos UE,"Coteaux Varois en  
+Provence",
+Vinos UE,Côtes d'Auvergne,
+Vinos UE,Côtes de Bordeaux Saint-Macaire,
+Vinos UE,Côtes de Meuse,
+Vinos UE,Côtes du Jura,
+Vinos UE,Crémant d'Alsace,
+Vinos UE,Crémant de Bordeaux,
+Vinos UE,"Crémant de  
+Bourgogne",
+Vinos UE,Crémant de Die,
+Vinos UE,Crémant de Limoux,
+Vinos UE,Crémant de Loire,
+Vinos UE,Crémant du Jura,
+Vinos UE,"Criots-Bâtard 
+Montrachet",
+Vinos UE,Crozes-Ermitage,
+Vinos UE,Entraygues - Le Fel,
+Vinos UE,Fiefs Vendéens,
+Vinos UE,Grand Roussillon,
+Vinos UE,Grands-Echezeaux,
+Vinos UE,"Haute Vallée de  
+l'Aude",
+Vinos UE,Haut-Poitou,
+Vinos UE,Île de Beauté,
+Vinos UE,Irancy,
+Vinos UE,La Romanée,
+Vinos UE,La Tâche,
+Vinos UE,Lalande-de-Pomerol,
+Vinos UE,Languedoc,
+Vinos UE,Les Baux de Provence,
+Vinos UE,Maranges,
+Vinos UE,Méditerranée,
+Vinos UE,Menetou-Salon,
+Vinos UE,"Montagne-Saint 
+Emilion",
+Vinos UE,Montlouis-sur-Loire,
+Vinos UE,"Muscadet Sèvre et  
+Maine",
+Vinos UE,Muscat de Beaumes de-Venise,
+Vinos UE,Muscat de Lunel,
+Vinos UE,Muscat de Mireval,
+Vinos UE,Muscat de Rivesaltes,
+Vinos UE,Muscat de Saint-Jean de-Minervois,
+Vinos UE,Muscat du Cap Corse,
+Vinos UE,Orléans,
+Vinos UE,Pays d'Hérault,
+Vinos UE,Pays d'Oc,
+Vinos UE,Petit Chablis,
+Vinos UE,Pineau des Charentes,
+Vinos UE,Pouilly-Fumé,
+Vinos UE,Puy-de-Dôme,
+Vinos UE,Quarts de Chaume,
+Vinos UE,Rasteau,
+Vinos UE,Romanée-Conti,
+Vinos UE,Rosé d'Anjou,
+Vinos UE,Rosé de Loire,
+Vinos UE,Rosé des Riceys,
+Vinos UE,Roussette de Savoie,
+Vinos UE,Roussette du Bugey,
+Vinos UE,Saint-Bris,
+Vinos UE,Sainte-Foy-Bordeaux,
+Vinos UE,"Sainte-Marie-la 
+Blanche",
+Vinos UE,Saint-Georges-Saint Emilion,
+Vinos UE,"Saint-Guilhem-le 
+Désert",
+Vinos UE,Saône-et-Loire,
+Vinos UE,Saumur-Champigny,
+Vinos UE,Savennières Coulée  de Serrant,
+Vinos UE,Savennières Roche  aux Moines,
+Vinos UE,Vin de Savoie,
+Vinos UE,Vins fins de la Côte de  Nuits,
+Vinos UE,Vinsobres,
+Vinos UE,Allobrogie,
+Vinos UE,Alpilles,
+Vinos UE,"Alsace grand cru  
+Kaefferkopf",
+Vinos UE,Atlantique,
+Vinos UE,Bourgogne ordinaire,
+Vinos UE,Brulhois,
+Vinos UE,Calvados,
+Vinos UE,Cathare,
+Vinos UE,Clos Vougeot,
+Vinos UE,"Coteaux  
+Bourguignons",
+Vinos UE,Coteaux Charitois,
+Vinos UE,Coteaux de Tannay,
+Vinos UE,Fronton,
+Vinos UE,Grignan-les-Adhémar,
+Vinos UE,L'Hermitage,
+Vinos UE,Luberon,
+Vinos UE,Malepère,
+Vinos UE,Muscat de Frontignan,
+Vinos UE,Orléans-Cléry,
+Vinos UE,Pierrevert,
+Vinos UE,Saint-Mont,
+Vinos UE,Savoie,
+Vinos UE,Ventoux,
+Vinos UE,Vin d'Alsace,
+Vinos UE,Vin de Bellet,
+Vinos UE,Vin de Corse,
+Vinos UE,Vin de Frontignan,
+Vinos UE,Viré-Clessé,
+Vinos UE,Dalmatinska zagora,
+Vinos UE,Dingač,
+Vinos UE,Hrvatska Istra,
+Vinos UE,Hrvatsko Podunavlje,
+Vinos UE,Hrvatsko primorje,
+Vinos UE,Istočna kontinentalna  Hrvatska,
+Vinos UE,Moslavina,
+Vinos UE,Plešivica,
+Vinos UE,Pokuplje,
+Vinos UE,Prigorje-Bilogora,
+Vinos UE,Primorska Hrvatska,
+Vinos UE,Sjeverna Dalmacija,
+Vinos UE,Slavonija,
+Vinos UE,"Srednja i Južna  
+Dalmacija",
+Vinos UE,Zagorje – Međimurje,
+Vinos UE,"Zapadna 
+kontinentalna  
+Hrvatska",
+Vinos UE,Abruzzo,
+Vinos UE,Affile,
+Vinos UE,Alba,
+Vinos UE,Albugnano,
+Vinos UE,Alcamo,
+Vinos UE,Alezio,
+Vinos UE,Alghero,
+Vinos UE,Allerona,
+Vinos UE,Alta Valle della Greve,
+Vinos UE,Alto Adige,
+Vinos UE,Alto Livenza,
+Vinos UE,Alto Mincio,
+Vinos UE,Aprilia,
+Vinos UE,Arborea,
+Vinos UE,Assisi,
+Vinos UE,Asti,
+Vinos UE,Aversa,
+Vinos UE,Bagnoli,
+Vinos UE,Bagnoli di Sopra,
+Vinos UE,Barbagia,
+Vinos UE,Barbaresco,
+Vinos UE,"Barco Reale di  
+Carmignano",
+Vinos UE,Bardolino,
+Vinos UE,Barletta,
+Vinos UE,Barolo,
+Vinos UE,Basilicata,
+Vinos UE,Benaco Bresciano,
+Vinos UE,Bergamasca,
+Vinos UE,Bettona,
+Vinos UE,Biferno,
+Vinos UE,Bivongi,
+Vinos UE,Boca,
+Vinos UE,Bolgheri Sassicaia,
+Vinos UE,Bosco Eliceo,
+Vinos UE,Brachetto d'Acqui,
+Vinos UE,Bramaterra,
+Vinos UE,Breganze,
+Vinos UE,Brindisi,
+Vinos UE,"Brunello di  
+Montalcino",
+Vinos UE,Cagliari,
+Vinos UE,Calabria,
+Vinos UE,Caldaro,
+Vinos UE,Caluso,
+Vinos UE,Camarro,
+Vinos UE,Campania,
+Vinos UE,Campi Flegrei,
+Vinos UE,"Campidano di  
+Terralba",
+Vinos UE,Canavese,
+Vinos UE,"Candia dei Colli  
+Apuani",
+Vinos UE,Cannara,
+Vinos UE,Capri,
+Vinos UE,Capriano del Colle,
+Vinos UE,Carema,
+Vinos UE,Carmignano,
+Vinos UE,Carso,
+Vinos UE,Castel del Monte,
+Vinos UE,Castel San Lorenzo,
+Vinos UE,Casteller,
+Vinos UE,Castelli Romani,
+Vinos UE,Cellatica,
+Vinos UE,Cerveteri,
+Vinos UE,Chianti,
+Vinos UE,Chianti Classico,
+Vinos UE,Cinque Terre,
+Vinos UE,Circeo,
+Vinos UE,Cirò,
+Vinos UE,Civitella d'Agliano,
+Vinos UE,Colli Albani,
+Vinos UE,Colli Altotiberini,
+Vinos UE,Colli Aprutini,
+Vinos UE,Colli Berici,
+Vinos UE,Colli Bolognesi,
+Vinos UE,Colli Cimini,
+Vinos UE,Colli del Limbara,
+Vinos UE,Colli del Sangro,
+Vinos UE,Colli del Trasimeno,
+Vinos UE,Colli della Sabina,
+Vinos UE,"Colli della Toscana  
+centrale",
+Vinos UE,"Colli dell'Etruria  
+Centrale",
+Vinos UE,Colli di Conegliano,
+Vinos UE,Colli di Faenza,
+Vinos UE,Colli di Luni,
+Vinos UE,Colli di Parma,
+Vinos UE,Colli di Rimini,
+Vinos UE,Colli di Salerno,
+Vinos UE,"Colli Etruschi  
+Viterbesi",
+Vinos UE,Colli Euganei,
+Vinos UE,Colli Lanuvini,
+Vinos UE,Colli Maceratesi,
+Vinos UE,Colli Martani,
+Vinos UE,Colli Perugini,
+Vinos UE,Colli Pesaresi,
+Vinos UE,Colli Piacentini,
+Vinos UE,Colli Tortonesi,
+Vinos UE,Collina del Milanese,
+Vinos UE,Colline di Levanto,
+Vinos UE,Colline Frentane,
+Vinos UE,Colline Lucchesi,
+Vinos UE,Colline Novaresi,
+Vinos UE,Colline Pescaresi,
+Vinos UE,Colline Saluzzesi,
+Vinos UE,Colline Savonesi,
+Vinos UE,Colline Teatine,
+Vinos UE,Collio,
+Vinos UE,Collio Goriziano,
+Vinos UE,Conselvano,
+Vinos UE,Contea di Sclafani,
+Vinos UE,Contessa Entellina,
+Vinos UE,Controguerra,
+Vinos UE,Copertino,
+Vinos UE,Cori,
+Vinos UE,Costa Viola,
+Vinos UE,Coste della Sesia,
+Vinos UE,Custoza,
+Vinos UE,Daunia,
+Vinos UE,Diano d'Alba,
+Vinos UE,Dogliani,
+Vinos UE,Dolceacqua,
+Vinos UE,"Dolcetto di Ovada  
+Superiore",
+Vinos UE,Dugenta,
+Vinos UE,Elba,
+Vinos UE,Eloro,
+Vinos UE,Emilia,
+Vinos UE,Epomeo,
+Vinos UE,Esino,
+Vinos UE,Etschtaler,
+Vinos UE,Falerno del Massico,
+Vinos UE,Fara,
+Vinos UE,Faro,
+Vinos UE,Fontanarossa di Cerda,
+Vinos UE,Fortana del Taro,
+Vinos UE,Franciacorta,
+Vinos UE,Frascati,
+Vinos UE,Friuli Annia,
+Vinos UE,Friuli Aquileia,
+Vinos UE,Friuli Grave,
+Vinos UE,Friuli Isonzo,
+Vinos UE,Friuli Latisana,
+Vinos UE,Frusinate,
+Vinos UE,Gabiano,
+Vinos UE,Galatina,
+Vinos UE,Gambellara,
+Vinos UE,Garda,
+Vinos UE,Garda Colli Mantovani,
+Vinos UE,Gattinara,
+Vinos UE,Gavi,
+Vinos UE,Genazzano,
+Vinos UE,Ghemme,
+Vinos UE,Gioia del Colle,
+Vinos UE,Gravina,
+Vinos UE,Histonium,
+Vinos UE,Irpinia,
+Vinos UE,Ischia,
+Vinos UE,Isola dei Nuraghi,
+Vinos UE,Isonzo del Friuli,
+Vinos UE,Kalterer,
+Vinos UE,Lago di Caldaro,
+Vinos UE,Lago di Corbara,
+Vinos UE,Lamezia,
+Vinos UE,Langhe,
+Vinos UE,Lazio,
+Vinos UE,Lessini Durello,
+Vinos UE,Lessona,
+Vinos UE,Leverano,
+Vinos UE,Lipuda,
+Vinos UE,Lizzano,
+Vinos UE,Loazzolo,
+Vinos UE,Locorotondo,
+Vinos UE,Locride,
+Vinos UE,Lugana,
+Vinos UE,Mandrolisai,
+Vinos UE,Marca Trevigiana,
+Vinos UE,Marche,
+Vinos UE,Maremma toscana,
+Vinos UE,Marino,
+Vinos UE,Marsala,
+Vinos UE,Matino,
+Vinos UE,Melissa,
+Vinos UE,Menfi,
+Vinos UE,Mitterberg,
+Vinos UE,Modena,
+Vinos UE,Molise,
+Vinos UE,Monferrato,
+Vinos UE,Montecarlo,
+Vinos UE,"Montecompatri  
+Colonna",
+Vinos UE,Montecucco,
+Vinos UE,Montefalco,
+Vinos UE,Montello,
+Vinos UE,Montenetto di Brescia,
+Vinos UE,Montescudaio,
+Vinos UE,Murgia,
+Vinos UE,Nardò,
+Vinos UE,Narni,
+Vinos UE,Nettuno,
+Vinos UE,Noto,
+Vinos UE,Nurra,
+Vinos UE,Olevano Romano,
+Vinos UE,Oltrepò Pavese,
+Vinos UE,Orcia,
+Vinos UE,Orvieto,
+Vinos UE,Osco,
+Vinos UE,Ostuni,
+Vinos UE,Ovada,
+Vinos UE,Paestum,
+Vinos UE,Palizzi,
+Vinos UE,Pantelleria,
+Vinos UE,Parrina,
+Vinos UE,Parteolla,
+Vinos UE,Pellaro,
+Vinos UE,Penisola Sorrentina,
+Vinos UE,Pentro di Isernia,
+Vinos UE,Piave,
+Vinos UE,Piceno,
+Vinos UE,Piemonte,
+Vinos UE,Piglio,
+Vinos UE,Planargia,
+Vinos UE,Pomino,
+Vinos UE,Pompeiano,
+Vinos UE,Quistello,
+Vinos UE,Ravenna,
+Vinos UE,Recioto di Soave,
+Vinos UE,Reggiano,
+Vinos UE,Reno,
+Vinos UE,"Riviera del Garda  
+Bresciano",
+Vinos UE,"Riviera ligure di  
+Ponente",
+Vinos UE,Roccamonfina,
+Vinos UE,Roero,
+Vinos UE,Romagna,
+Vinos UE,Romangia,
+Vinos UE,Ronchi di Brescia,
+Vinos UE,Rotae,
+Vinos UE,Rubicone,
+Vinos UE,Sabbioneta,
+Vinos UE,Salemi,
+Vinos UE,Salento,
+Vinos UE,Salice Salentino,
+Vinos UE,Salina,
+Vinos UE,Sambuca di Sicilia,
+Vinos UE,"San Colombano al  
+Lambro",
+Vinos UE,San Gimignano,
+Vinos UE,"San Martino della  
+Battaglia",
+Vinos UE,San Severo,
+Vinos UE,San Torpè,
+Vinos UE,Sannio,
+Vinos UE,Santa Margherita di  Belice,
+Vinos UE,Sant'Antimo,
+Vinos UE,Savuto,
+Vinos UE,Scavigna,
+Vinos UE,Sciacca,
+Vinos UE,Sebino,
+Vinos UE,Serrapetrona,
+Vinos UE,Sibiola,
+Vinos UE,Sicilia,
+Vinos UE,Sillaro,
+Vinos UE,Siracusa,
+Vinos UE,Sizzano,
+Vinos UE,Soave,
+Vinos UE,Spello,
+Vinos UE,Squinzano,
+Vinos UE,Südtirol,
+Vinos UE,Südtiroler,
+Vinos UE,Tarantino,
+Vinos UE,Tarquinia,
+Vinos UE,Taurasi,
+Vinos UE,Teroldego Rotaliano,
+Vinos UE,Terralba,
+Vinos UE,"Terrazze Retiche di 
+Sondrio",
+Vinos UE,Terre degli Osci,
+Vinos UE,Terre del Volturno,
+Vinos UE,Terre di Chieti,
+Vinos UE,Terre di Veleja,
+Vinos UE,Tharros,
+Vinos UE,Todi,
+Vinos UE,Torgiano,
+Vinos UE,Toscana,
+Vinos UE,Toscano,
+Vinos UE,Trentino,
+Vinos UE,Trento,
+Vinos UE,Trexenta,
+Vinos UE,Umbria,
+Vinos UE,Val di Cornia,
+Vinos UE,Val di Magra,
+Vinos UE,Val di Neto,
+Vinos UE,Val Tidone,
+Vinos UE,Valcalepio,
+Vinos UE,Valdadige,
+Vinos UE,Valdamato,
+Vinos UE,Valdinievole,
+Vinos UE,Vallagarina,
+Vinos UE,Valle Belice,
+Vinos UE,Valle d'Aosta,
+Vinos UE,Valle d'Itria,
+Vinos UE,Vallée d'Aoste,
+Vinos UE,Valli di Porto Pino,
+Vinos UE,Valpolicella,
+Vinos UE,Valsusa,
+Vinos UE,Velletri,
+Vinos UE,Veneto,
+Vinos UE,Veneto Orientale,
+Vinos UE,Venezia Giulia,
+Vinos UE,Verduno,
+Vinos UE,Vermentino di Gallura,
+Vinos UE,"Vernaccia di San  
+Gimignano",
+Vinos UE,Verona,
+Vinos UE,Veronese,
+Vinos UE,Vesuvio,
+Vinos UE,Vignanello,
+Vinos UE,Vittoria,
+Vinos UE,Zagarolo,
+Vinos UE,Aglianico del Taburno,
+Vinos UE,Aglianico del Vulture,
+Vinos UE,Aleatico di Gradoli,
+Vinos UE,Aleatico di Puglia,
+Vinos UE,"Amarone della  
+Valpolicella",
+Vinos UE,"Ansonica Costa  
+dell'Argentario",
+Vinos UE,Arghillà,
+Vinos UE,Barbera d'Alba,
+Vinos UE,Barbera d'Asti,
+Vinos UE,"Barbera del  
+Monferrato",
+Vinos UE,"Barbera del  
+Monferrato Superiore",
+Vinos UE,Bardolino Superiore,
+Vinos UE,"Bianchello del  
+Metauro",
+Vinos UE,Bianco Capena,
+Vinos UE,Bianco del Sillaro,
+Vinos UE,Bianco dell'Empolese,
+Vinos UE,Bianco di Castelfranco  Emilia,
+Vinos UE,Bianco di Custoza,
+Vinos UE,Bianco di Pitigliano,
+Vinos UE,Botticino,
+Vinos UE,"Buttafuoco  
+dell'Oltrepò Pavese",
+Vinos UE,"Cacc'e mmitte di  
+Lucera",
+Vinos UE,Cannellino di Frascati,
+Vinos UE,"Cannonau di  
+Sardegna",
+Vinos UE,Carignano del Sulcis,
+Vinos UE,Casorzo,
+Vinos UE,"Castel del Monte  
+Bombino Nero",
+Vinos UE,"Castel del Monte  
+Nero di Troia Riserva",
+Vinos UE,"Castel del Monte  
+Rosso Riserva",
+Vinos UE,"Castelli di Jesi  
+Verdicchio Riserva",
+Vinos UE,Cerasuolo d'Abruzzo,
+Vinos UE,Cerasuolo di Vittoria,
+Vinos UE,Cisterna d'Asti,
+Vinos UE,Colli di Scandiano e di  Canossa,
+Vinos UE,Colli d'Imola,
+Vinos UE,"Colli Euganei Fior  
+d'Arancio",
+Vinos UE,"Colli Orientali del  
+Friuli Picolit",
+Vinos UE,"Colli Romagna  
+centrale",
+Vinos UE,"Colline Joniche  
+Tarantine",
+Vinos UE,Conegliano - Prosecco,
+Vinos UE,"Conegliano 
+Valdobbiadene - 
+Prosecco",
+Vinos UE,Cònero,
+Vinos UE,"Cortese dell'Alto  
+Monferrato",
+Vinos UE,Costa d'Amalfi,
+Vinos UE,Costa Toscana,
+Vinos UE,Delia Nivolelli,
+Vinos UE,delle Venezie,
+Vinos UE,Dolcetto d'Acqui,
+Vinos UE,Dolcetto d'Alba,
+Vinos UE,Dolcetto d'Asti,
+Vinos UE,"Est! Est!! Est!!! di  
+Montefiascone",
+Vinos UE,Falanghina del Sannio,
+Vinos UE,Fiano di Avellino,
+Vinos UE,Forlì,
+Vinos UE,Frascati Superiore,
+Vinos UE,Freisa d'Asti,
+Vinos UE,Freisa di Chieri,
+Vinos UE,Friuli Colli Orientali,
+Vinos UE,Galluccio,
+Vinos UE,Garda Bresciano,
+Vinos UE,Girò di Cagliari,
+Vinos UE,"Golfo del Tigullio - 
+Portofino",
+Vinos UE,Greco di Bianco,
+Vinos UE,Greco di Tufo,
+Vinos UE,"Grignolino del  
+Monferrato Casalese",
+Vinos UE,Lacrima di Morro,
+Vinos UE,Lambrusco di Sorbara,
+Vinos UE,"Lambrusco 
+Grasparossa di  
+Castelvetro",
+Vinos UE,"Lambrusco  
+Mantovano",
+Vinos UE,Lambrusco Salamino  di Santa Croce,
+Vinos UE,Liguria di Levante,
+Vinos UE,Lison,
+Vinos UE,Lison-Pramaggiore,
+Vinos UE,Malanotte del Piave,
+Vinos UE,Malvasia delle Lipari,
+Vinos UE,Malvasia di Bosa,
+Vinos UE,"Malvasia di 
+Castelnuovo Don  
+Bosco",
+Vinos UE,Marmilla,
+Vinos UE,Martina Franca,
+Vinos UE,Monica di Sardegna,
+Vinos UE,"Montecucco  
+Sangiovese",
+Vinos UE,"Montello - Colli  
+Asolani",
+Vinos UE,"Montepulciano  
+d’Abruzzo",
+Vinos UE,"Montepulciano 
+d'Abruzzo Colline  
+Teramane",
+Vinos UE,Monteregio di Massa  Marittima,
+Vinos UE,Monti Lessini,
+Vinos UE,Morellino di Scansano,
+Vinos UE,"Moscadello di  
+Montalcino",
+Vinos UE,Moscato di Sardegna,
+Vinos UE,"Moscato di Sorso - 
+Sennori",
+Vinos UE,Moscato di Trani,
+Vinos UE,Nasco di Cagliari,
+Vinos UE,Nebbiolo d'Alba,
+Vinos UE,Nuragus di Cagliari,
+Vinos UE,"Oltrepò Pavese  
+metodo classico",
+Vinos UE,Oltrepò Pavese Pinot  grigio,
+Vinos UE,Orta Nova,
+Vinos UE,Orvietano Rosso,
+Vinos UE,Pinerolese,
+Vinos UE,"Pinot nero  
+dell'Oltrepò Pavese",
+Vinos UE,Primitivo di Manduria,
+Vinos UE,Primitivo di Manduria  Dolce Naturale,
+Vinos UE,Provincia di Mantova,
+Vinos UE,Provincia di Nuoro,
+Vinos UE,Provincia di Pavia,
+Vinos UE,Ramandolo,
+Vinos UE,"Recioto della  
+Valpolicella",
+Vinos UE,Recioto di Gambellara,
+Vinos UE,Romagna Albana,
+Vinos UE,Rosazzo,
+Vinos UE,Rosso Cònero,
+Vinos UE,"Rosso della Val di  
+Cornia",
+Vinos UE,Rosso di Cerignola,
+Vinos UE,Rosso di Montalcino,
+Vinos UE,"Rosso di  
+Montepulciano",
+Vinos UE,Rosso di Valtellina,
+Vinos UE,Rubino di Cantavenna,
+Vinos UE,Ruchè di Castagnole  Monferrato,
+Vinos UE,S. Anna di Isola Capo  Rizzuto,
+Vinos UE,"Sangue di Giuda  
+dell'Oltrepò Pavese",
+Vinos UE,Sardegna Semidano,
+Vinos UE,Sfursat di Valtellina,
+Vinos UE,Soave Superiore,
+Vinos UE,Tavoliere delle Puglie,
+Vinos UE,Terre Siciliane,
+Vinos UE,"Torgiano Rosso  
+Riserva",
+Vinos UE,Trebbiano d'Abruzzo,
+Vinos UE,Val Polcèvera,
+Vinos UE,"Valdadige  
+Terradeiforti",
+Vinos UE,Valdichiana toscana,
+Vinos UE,"Valdobbiadene - 
+Prosecco",
+Vinos UE,Valle del Tirso,
+Vinos UE,Valpolicella Ripasso,
+Vinos UE,Valtellina Superiore,
+Vinos UE,Venezia,
+Vinos UE,Verdicchio dei Castelli  di Jesi,
+Vinos UE,Verdicchio di Matelica,
+Vinos UE,Verdicchio di Matelica  Riserva,
+Vinos UE,"Vermentino di  
+Sardegna",
+Vinos UE,Vernaccia di Oristano,
+Vinos UE,"Vernaccia di  
+Serrapetrona",
+Vinos UE,Vigneti delle Dolomiti,
+Vinos UE,Vin Santo del Chianti,
+Vinos UE,Vin Santo del Chianti  Classico,
+Vinos UE,"Vin Santo di  
+Montepulciano",
+Vinos UE,"Vino Nobile di  
+Montepulciano",
+Vinos UE,Weinberg Dolomiten,
+Vinos UE,"Aleatico Passito  
+dell'Elba",
+Vinos UE,Alta Langa,
+Vinos UE,Anagni,
+Vinos UE,Arcole,
+Vinos UE,Asolo - Prosecco,
+Vinos UE,Atina,
+Vinos UE,Avola,
+Vinos UE,Bagnoli Friularo,
+Vinos UE,Beneventano,
+Vinos UE,Bonarda dell'Oltrepò  Pavese,
+Vinos UE,Buttafuoco,
+Vinos UE,Calosso,
+Vinos UE,Capalbio,
+Vinos UE,Carso - Kras,
+Vinos UE,"Casavecchia di  
+Pontelatone",
+Vinos UE,Casteggio,
+Vinos UE,"Catalanesca del  
+Monte Somma",
+Vinos UE,Cesanese del Piglio,
+Vinos UE,Cesanese di Affile,
+Vinos UE,Cesanese di Olevano  Romano,
+Vinos UE,"Cinque Terre  
+Sciacchetrà",
+Vinos UE,Colleoni,
+Vinos UE,"Colli Asolani - 
+Prosecco",
+Vinos UE,Collina Torinese,
+Vinos UE,"Colline del  
+Genovesato",
+Vinos UE,Colonna,
+Vinos UE,Cortese di Gavi,
+Vinos UE,Corti Benedettine del  Padovano,
+Vinos UE,Cortona,
+Vinos UE,"Costa Etrusco  
+Romana",
+Vinos UE,Curtefranca,
+Vinos UE,del Frusinate,
+Vinos UE,del Molise,
+Vinos UE,del Vastese,
+Vinos UE,dell'Alto Adige,
+Vinos UE,di Modena,
+Vinos UE,"Dolcetto di Diano  
+d'Alba",
+Vinos UE,Dolcetto di Ovada,
+Vinos UE,Durello Lessini,
+Vinos UE,Elba Aleatico Passito,
+Vinos UE,Erice,
+Vinos UE,Falerio,
+Vinos UE,"Fior d'Arancio Colli  
+Euganei",
+Vinos UE,Friularo di Bagnoli,
+Vinos UE,Grance Senesi,
+Vinos UE,Grottino di Roccanova,
+Vinos UE,Gutturnio,
+Vinos UE,"I Terreni di  
+Sanseverino",
+Vinos UE,"Lacrima di Morro  
+d'Alba",
+Vinos UE,Malvasia di Casorzo,
+Vinos UE,Malvasia di Casorzo  d'Asti,
+Vinos UE,Mamertino,
+Vinos UE,Mamertino di Milazzo,
+Vinos UE,Martina,
+Vinos UE,Matera,
+Vinos UE,Merlara,
+Vinos UE,Monreale,
+Vinos UE,Montecastelli,
+Vinos UE,Montecompatri,
+Vinos UE,Montello Rosso,
+Vinos UE,"Moscato di  
+Pantelleria",
+Vinos UE,Moscato di Scanzo,
+Vinos UE,Moscato di Sennori,
+Vinos UE,Moscato di Sorso,
+Vinos UE,Moscato di Terracina,
+Vinos UE,Negroamaro di Terra  d'Otranto,
+Vinos UE,Offida,
+Vinos UE,"Ormeasco di  
+Pornassio",
+Vinos UE,Ortona,
+Vinos UE,Ortrugo,
+Vinos UE,Passito di Pantelleria,
+Vinos UE,Pergola,
+Vinos UE,Piave Malanotte,
+Vinos UE,Pornassio,
+Vinos UE,Portofino,
+Vinos UE,Prosecco,
+Vinos UE,Provincia di Verona,
+Vinos UE,Riesi,
+Vinos UE,Riviera del Brenta,
+Vinos UE,Roma,
+Vinos UE,Ronchi Varesini,
+Vinos UE,"Rossese di  
+Dolceacqua",
+Vinos UE,Rosso Orvietano,
+Vinos UE,Rosso Piceno,
+Vinos UE,Salaparuta,
+Vinos UE,San Colombano,
+Vinos UE,San Ginesio,
+Vinos UE,Sangue di Giuda,
+Vinos UE,Scanzo,
+Vinos UE,Serenissima,
+Vinos UE,Sforzato di Valtellina,
+Vinos UE,Sovana,
+Vinos UE,Spoleto,
+Vinos UE,Strevi,
+Vinos UE,Suvereto,
+Vinos UE,Tavoliere,
+Vinos UE,Terra d'Otranto,
+Vinos UE,Terracina,
+Vinos UE,Terradeiforti,
+Vinos UE,Terratico di Bibbona,
+Vinos UE,"Terrazze  
+dell'Imperiese",
+Vinos UE,Terre Alfieri,
+Vinos UE,Terre de L'Aquila,
+Vinos UE,Terre del Colleoni,
+Vinos UE,"Terre dell'Alta Val  
+d'Agri",
+Vinos UE,Terre di Casole,
+Vinos UE,Terre di Cosenza,
+Vinos UE,Terre di Offida,
+Vinos UE,Terre di Pisa,
+Vinos UE,Terre Lariane,
+Vinos UE,Terre Tollesi,
+Vinos UE,Trasimeno,
+Vinos UE,Tullum,
+Vinos UE,Tuscia,
+Vinos UE,Val d'Arno di Sopra,
+Vinos UE,Val di Cornia Rosso,
+Vinos UE,Valcamonica,
+Vinos UE,Valdarno di Sopra,
+Vinos UE,Valli Ossolane,
+Vinos UE,Valtellina rosso,
+Vinos UE,Valtènesi,
+Vinos UE,Verduno Pelaverga,
+Vinos UE,"Vigneti della  
+Serenissima",
+Vinos UE,Villamagna,
+Vinos UE,"Vin Santo di  
+Carmignano",
+Vinos UE,"Βουνί Παναγιάς – 
+Αμπελίτης","Vouni Panayias - 
+Ampelitis"
+Vinos UE,Κουμανδαρία ,Commandaria
+Vinos UE,Κρασοχώρια Λεμεσού ,Krasohoria Lemesou
+Vinos UE,Κρασοχώρια Λεμεσού  - Λαόνα,Krasohoria Lemesou - Laona
+Vinos UE,Λαόνα Ακάμα ,Laona Akama
+Vinos UE,Λάρνακα ,Larnaka
+Vinos UE,Λεμεσός ,Lemesos
+Vinos UE,Λευκωσία ,Lefkosia
+Vinos UE,Πιτσιλιά ,Pitsilia
+Vinos UE,Κρασοχώρια Λεμεσού  - Αφάμης,Krasohoria Lemesou - Afames
+Vinos UE,"Moselle  
+Luxembourgeoise",
+Vinos UE,Badacsony,
+Vinos UE,Balaton,
+Vinos UE,Balatonboglár,
+Vinos UE,Balaton-felvidék,
+Vinos UE,Balatonfüred-Csopak,
+Vinos UE,Balatonmelléki,
+Vinos UE,Bükk,
+Vinos UE,Csongrád,
+Vinos UE,Eger,
+Vinos UE,Etyek-Buda,
+Vinos UE,Hajós-Baja,
+Vinos UE,Kunság,
+Vinos UE,Mátra,
+Vinos UE,Mór,
+Vinos UE,Pannonhalma,
+Vinos UE,Pécs,
+Vinos UE,Somló,
+Vinos UE,Sopron,
+Vinos UE,Tokaj,
+Vinos UE,Tolna,
+Vinos UE,Villány,
+Vinos UE,Badacsonyi,
+Vinos UE,Balatonboglári,
+Vinos UE,Balaton-felvidéki,
+Vinos UE,Balatonfüred-Csopaki,
+Vinos UE,Balatoni,
+Vinos UE,Bükki,
+Vinos UE,Csongrádi,
+Vinos UE,Duna1,
+Vinos UE,Dunai,
+Vinos UE,Dunántúl,
+Vinos UE,Dunántúli,
+Vinos UE,Duna-Tisza-közi,
+Vinos UE,Egri,
+Vinos UE,Etyek-Budai,
+Vinos UE,Felső-Magyarország,
+Vinos UE,Felső-Magyarországi,
+Vinos UE,Izsáki Arany Sárfehér,
+Vinos UE,Káli,
+Vinos UE,Kunsági,
+Vinos UE,Mátrai,
+Vinos UE,Móri,
+Vinos UE,Nagy-Somló,
+Vinos UE,Nagy-Somlói,
+Vinos UE,Neszmély,
+Vinos UE,Neszmélyi,
+Vinos UE,Pannon,
+Vinos UE,Pannonhalmi,
+Vinos UE,Somlói,
+Vinos UE,Soproni,
+Vinos UE,Szekszárdi,
+Vinos UE,Tihany,
+Vinos UE,Tihanyi,
+Vinos UE,Tokaji,
+Vinos UE,Tolnai,
+Vinos UE,Villányi,
+Vinos UE,Zalai,
+Vinos UE,Zemplén,
+Vinos UE,Zempléni,
+Vinos UE,Szekszárd,
+Vinos UE,Gozo,
+Vinos UE,Malta,
+Vinos UE,Maltese Islands,
+Vinos UE,Għawdex,
+Vinos UE,Drenthe,
+Vinos UE,Flevoland,
+Vinos UE,Friesland,
+Vinos UE,Gelderland,
+Vinos UE,Groningen,
+Vinos UE,Limburg,
+Vinos UE,Noord-Brabant,
+Vinos UE,Noord-Holland,
+Vinos UE,Overijssel,
+Vinos UE,Utrecht,
+Vinos UE,Zeeland,
+Vinos UE,Zuid-Holland,
+Vinos UE,Bergland,
+Vinos UE,Burgenland,
+Vinos UE,Carnuntum,
+Vinos UE,Kamptal,
+Vinos UE,Kärnten,
+Vinos UE,Kremstal,
+Vinos UE,Mittelburgenland,
+Vinos UE,Neusiedlersee,
+Vinos UE,"Neusiedlersee 
+Hügelland",
+Vinos UE,Niederösterreich,
+Vinos UE,Oberösterreich,
+Vinos UE,Steiermark,
+Vinos UE,Südburgenland,
+Vinos UE,Süd-Oststeiermark,
+Vinos UE,Südsteiermark,
+Vinos UE,Thermenregion,
+Vinos UE,Tirol,
+Vinos UE,Traisental,
+Vinos UE,Vorarlberg,
+Vinos UE,Wachau,
+Vinos UE,Weinland,
+Vinos UE,Weinviertel,
+Vinos UE,Weststeiermark,
+Vinos UE,Wien,
+Vinos UE,Eisenberg,
+Vinos UE,Leithaberg,
+Vinos UE,Wagram,
+Vinos UE,Steirerland,
+Vinos UE,Alenquer,
+Vinos UE,Alentejano,
+Vinos UE,Alentejo,
+Vinos UE,Algarve,
+Vinos UE,Arruda,
+Vinos UE,Bairrada,
+Vinos UE,Beira Interior,
+Vinos UE,Biscoitos,
+Vinos UE,Bucelas,
+Vinos UE,Carcavelos,
+Vinos UE,Colares,
+Vinos UE,Dão,
+Vinos UE,Douro,
+Vinos UE,Encostas d’Aire,
+Vinos UE,Óbidos,
+Vinos UE,Palmela,
+Vinos UE,Pico,
+Vinos UE,Portimão,
+Vinos UE,Setúbal,
+Vinos UE,Tavira,
+Vinos UE,Távora-Varosa,
+Vinos UE,Torres Vedras,
+Vinos UE,Trás-os-Montes,
+Vinos UE,Vinho Verde,
+Vinos UE,Graciosa,
+Vinos UE,Lafões,
+Vinos UE,Lagoa,
+Vinos UE,Lagos,
+Vinos UE,Madeira,
+Vinos UE,Madeira Wein,
+Vinos UE,Madeira Wijn,
+Vinos UE,Madeira Wine,
+Vinos UE,Madera,
+Vinos UE,Madère,
+Vinos UE,Oporto,
+Vinos UE,Port,
+Vinos UE,Port Wine,
+Vinos UE,Porto,
+Vinos UE,Portvin,
+Vinos UE,Portwein,
+Vinos UE,Portwijn,
+Vinos UE,Vin de Madère,
+Vinos UE,vin de Porto,
+Vinos UE,Vinho da Madeira,
+Vinos UE,vinho do Porto,
+Vinos UE,Açores,
+Vinos UE,DoTejo,
+Vinos UE,Duriense,
+Vinos UE,Lisboa,
+Vinos UE,Madeirense,
+Vinos UE,Península de Setúbal,
+Vinos UE,Tejo,
+Vinos UE,Terras Madeirenses,
+Vinos UE,Transmontano,
+Vinos UE,Aiud,
+Vinos UE,Alba Iulia,
+Vinos UE,Babadag,
+Vinos UE,Banat,
+Vinos UE,Banu Mărăcine,
+Vinos UE,Bohotin,
+Vinos UE,Colinele Dobrogei,
+Vinos UE,Coteşti,
+Vinos UE,Cotnari,
+Vinos UE,Crişana,
+Vinos UE,Dealu Bujorului,
+Vinos UE,Dealu Mare,
+Vinos UE,Dealurile Crişanei,
+Vinos UE,Dealurile Moldovei,
+Vinos UE,Dealurile Munteniei,
+Vinos UE,Dealurile Olteniei,
+Vinos UE,Dealurile Sătmarului,
+Vinos UE,Dealurile Transilvaniei,
+Vinos UE,Dealurile Vrancei,
+Vinos UE,Dealurile Zarandului,
+Vinos UE,Drăgăşani,
+Vinos UE,Huşi,
+Vinos UE,Iaşi,
+Vinos UE,Lechinţa,
+Vinos UE,Mehedinţi,
+Vinos UE,Miniş,
+Vinos UE,Murfatlar,
+Vinos UE,Nicoreşti,
+Vinos UE,Odobeşti,
+Vinos UE,Oltina,
+Vinos UE,Panciu,
+Vinos UE,Pietroasa,
+Vinos UE,Recaş,
+Vinos UE,Sâmbureşti,
+Vinos UE,Sarica Niculiţel,
+Vinos UE,Sebeş-Apold,
+Vinos UE,Segarcea,
+Vinos UE,Ştefăneşti,
+Vinos UE,Târnave,
+Vinos UE,Terasele Dunării,
+Vinos UE,Viile Caraşului,
+Vinos UE,Viile Timişului,
+Vinos UE,Belokranjec,
+Vinos UE,Bizeljčan,
+Vinos UE,Metliška črnina,
+Vinos UE,Slovenska Istra,
+Vinos UE,Teran,
+Vinos UE,Dolenjska,
+Vinos UE,Kras,
+Vinos UE,Podravje,
+Vinos UE,Posavje,
+Vinos UE,Primorska,
+Vinos UE,Bela krajina,
+Vinos UE,Cviček,
+Vinos UE,Goriška Brda,
+Vinos UE,Prekmurje,
+Vinos UE,Štajerska Slovenija,
+Vinos UE,Vipavska dolina,
+Vinos UE,Južnoslovenské,
+Vinos UE,Južnoslovenský,
+Vinos UE,Malokarpatské,
+Vinos UE,Malokarpatský,
+Vinos UE,Nitrianske,
+Vinos UE,Nitriansky,
+Vinos UE,Slovenská,
+Vinos UE,Slovenské,
+Vinos UE,Slovenský,
+Vinos UE,Stredoslovenské,
+Vinos UE,Stredoslovenský,
+Vinos UE,Vinohradnícka oblasť  Tokaj,
+Vinos UE,Východoslovenské,
+Vinos UE,Východoslovenský,
+Vinos UE,Južnoslovenská,
+Vinos UE,Karpatská perla,
+Vinos UE,Malokarpatská,
+Vinos UE,Nitrianska,
+Vinos UE,Stredoslovenská,
+Vinos UE,Východoslovenská,
+Vinos UE,Indicación geográfica ,Descripción de la categoría
+Vinos UE,O' de Flander-Oost-Vlaamse Graanjenever ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Balegemse jenever ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Hasseltse jenever/Hasselt ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Peket-Pekêt/Pèket-Pèkèt de Wallonie ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Jonge jenever/jonge genever ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Oude jenever/oude genever ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Genièvre de grains/Graanjenever/Graangenever ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Genièvre/Jenever/Genever ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Genièvre aux fruits/Vruchtenjenever/Jenever met  vruchten/Fruchtgenever ,Otras bebidas espirituosas
+Vinos UE,Карловска гроздова ракия/Гроздова Ракия от  Карлово/Karlovska grozdova rakya/Grozdova Rakya  from Karlovo,Aguardiente de vino
+Vinos UE,Ловешка сливова ракия/Сливова ракия от  Ловеч/Loveshka slivova rakya/Slivova rakya from  Lovech,Aguardiente de fruta
+Vinos UE,Поморийска гроздова ракия/Гроздова ракия от  Поморие/Pomoriyska grozdova rakya/Grozdova  rakya from Pomorie,Aguardiente de vino
+Vinos UE,Сливенска перла (Сливенска гроздова  ракия/Гроздова ракия от Сливен)/Slivenska perla  (Slivenska grozdova rakya/Grozdova rakya from  Sliven),Aguardiente de vino
+Vinos UE,Стралджанска Мускатова ракия/Мускатова ракия  от Стралджа/Straldjanska Muscatova  rakya/Muscatova rakya from Straldja,Aguardiente de vino
+Vinos UE,Сунгурларска гроздова ракия/Гроздова ракия от  Сунгурларе/Sungurlarska grozdova rakya/Grozdova  rakya from Sungurlare,Aguardiente de vino
+Vinos UE,Сухиндолска гроздова ракия/Гроздова ракия от  Сухиндол/Suhindolska grozdova rakya/Grozdova  rakya from Suhindol,Aguardiente de vino
+Vinos UE,Троянска сливова ракия/Сливова ракия от  Троян/Troyanska slivova rakya/Slivova rakya from  Troyan,Aguardiente de fruta
+Vinos UE,Bayerischer Gebirgsenzian ,Genciana
+Vinos UE,Bayerischer Kräuterlikör ,Licor
+Vinos UE,Benediktbeurer Klosterlikör ,Licor
+Vinos UE,Berliner Kümmel ,Licor
+Vinos UE,Chiemseer Klosterlikör ,Licor
+Vinos UE,Deutscher Weinbrand ,Brandy o Weinbrand
+Vinos UE,Ettaler Klosterlikör ,Licor
+Vinos UE,Fränkischer Obstler ,Aguardiente de fruta
+Vinos UE,Fränkisches Kirschwasser ,Aguardiente de fruta
+Vinos UE,Fränkisches Zwetschgenwasser ,Aguardiente de fruta
+Vinos UE,Hamburger Kümmel ,Licor
+Vinos UE,Münchener Kümmel ,Licor
+Vinos UE,Ostfriesischer Korngenever ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Schwarzwälder Himbeergeist ,Geist
+Vinos UE,Schwarzwälder Mirabellenwasser ,Aguardiente de fruta
+Vinos UE,Schwarzwälder Williamsbirne ,Aguardiente de fruta
+Vinos UE,Schwarzwälder Zwetschgenwasser ,Aguardiente de fruta
+Vinos UE,Steinhäger ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Bärwurz ,Otras bebidas espirituosas
+Vinos UE,Blutwurz ,Licor
+Vinos UE,Emsländer Korn/Kornbrand ,Bebida espirituosa de cereales
+Vinos UE,Haselünner Korn/Kornbrand ,Bebida espirituosa de cereales
+Vinos UE,Hasetaler Korn/Kornbrand ,Bebida espirituosa de cereales
+Vinos UE,Hüttentee ,Licor
+Vinos UE,Münsterländer Korn/Kornbrand ,Bebida espirituosa de cereales
+Vinos UE,Ostpreußischer Bärenfang ,Otras bebidas espirituosas
+Vinos UE,Pfälzer Weinbrand ,Brandy o Weinbrand
+Vinos UE,Rheinberger Kräuter ,"Bebidas espirituosas de sabor  amargo, amer o bitter"
+Vinos UE,Sendenhorster Korn/Kornbrand ,Bebida espirituosa de cereales
+Vinos UE,Korn/Kornbrand ,Bebida espirituosa de cereales
+Vinos UE,Estonian vodka ,Vodka
+Vinos UE,Irish Cream ,Licor
+Vinos UE,Irish Whiskey/Uisce Beatha Eireannach/Irish Whisky ,Whisky o whiskey
+Vinos UE,Irish Poteen/Irish Poitín ,Otras bebidas espirituosas
+Vinos UE,Τσικουδιά Κρήτης/Tsikoudia of Crete ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Τσίπουρο Θεσσαλίας/Tsipouro of Thessaly ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Τσίπουρο Τυρνάβου/Tsipouro of Tyrnavos ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Κίτρο Νάξου/Kitro of Naxos ,Licor
+Vinos UE,Κουμκουάτ Κέρκυρας/Koum Kouat of Corfu ,Licor
+Vinos UE,Μαστίχα Χίου/Masticha of Chios ,Licor
+Vinos UE,Ούζο Θράκης/Ouzo of Thrace ,Anís destilado
+Vinos UE,Ούζο Καλαμάτας/Ouzo of Kalamata ,Anís destilado
+Vinos UE,Ούζο Μακεδονίας/Ouzo of Macedonia ,Anís destilado
+Vinos UE,Ούζο Μυτιλήνης/Ouzo of Mitilene ,Anís destilado
+Vinos UE,Ούζο Πλωμαρίου/Ouzo of Plomari ,Anís destilado
+Vinos UE,Τεντούρα/Tentoura ,Licor
+Vinos UE,Τσικουδιά/Tsikoudia ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Τσίπουρο/Tsipouro ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Ouzo/Oύζο ,Anís destilado
+Vinos UE,Aguardiente de sidra de Asturias ,Aguardiente de sidra o de  perada
+Vinos UE,Brandy de Jerez ,Brandy o Weinbrand
+Vinos UE,Brandy del Penedés ,Brandy o Weinbrand
+Vinos UE,Chinchón ,Bebidas espirituosas anisadas
+Vinos UE,Gin de Mahón ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Pacharán navarro ,Bebida espirituosa aromatizada  a base de endrinas o Pacharán
+Vinos UE,Palo de Mallorca ,Licor
+Vinos UE,Ratafia catalana ,Licor
+Vinos UE,Aguardiente de hierbas de Galicia ,Otras bebidas espirituosas
+Vinos UE,Anís Paloma Monforte del Cid ,Bebidas espirituosas anisadas
+Vinos UE,Aperitivo Café de Alcoy ,Otras bebidas espirituosas
+Vinos UE,Cantueso Alicantino ,Licor
+Vinos UE,Herbero de la Sierra de Mariola ,Otras bebidas espirituosas
+Vinos UE,Hierbas Ibicencas ,Bebidas espirituosas anisadas
+Vinos UE,Licor café de Galicia ,Licor
+Vinos UE,Licor de hierbas de Galicia ,Licor
+Vinos UE,Orujo de Galicia ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Ronmiel de Canarias ,Otras bebidas espirituosas
+Vinos UE,Armagnac ,Aguardiente de vino
+Vinos UE,Calvados ,Aguardiente de sidra o de  perada
+Vinos UE,Cassis de Dijon ,Crema de casis
+Vinos UE,Eau-de-vie de cidre de Bretagne ,Aguardiente de sidra o de  perada
+Vinos UE,Eau-de-vie de cidre de Normandie ,Aguardiente de sidra o de  perada
+Vinos UE,Eau-de-vie de cidre du Maine ,Aguardiente de sidra o de  perada
+Vinos UE,Eau-de-vie de poiré de Normandie ,Aguardiente de sidra o de  perada
+Vinos UE,Eau-de-vie de vin de la Marne ,Aguardiente de vino
+Vinos UE,Eau-de-vie de vin des Côtes-du-Rhône ,Aguardiente de vino
+Vinos UE,Eau-de-vie de vin originaire du Bugey ,Aguardiente de vino
+Vinos UE,Eau-de-vie de vin originaire du Languedoc ,Aguardiente de vino
+Vinos UE,Fine Bordeaux ,Aguardiente de vino
+Vinos UE,Framboise d'Alsace ,Aguardiente de fruta
+Vinos UE,Genièvre Flandres Artois ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Kirsch d'Alsace ,Aguardiente de fruta
+Vinos UE,Kirsch de Fougerolles ,Aguardiente de fruta
+Vinos UE,Marc d'Alsace Gewurztraminer ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Marc d'Auvergne ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Mirabelle d'Alsace ,Aguardiente de fruta
+Vinos UE,Mirabelle de Lorraine ,Aguardiente de fruta
+Vinos UE,Pommeau de Normandie ,Otras bebidas espirituosas
+Vinos UE,Pommeau du Maine ,Otras bebidas espirituosas
+Vinos UE,Quetsch d'Alsace ,Aguardiente de fruta
+Vinos UE,Ratafia de Champagne ,Licor
+Vinos UE,Rhum de la Guadeloupe ,Ron
+Vinos UE,Rhum de la Guyane ,Ron
+Vinos UE,Rhum de la Martinique ,Ron
+Vinos UE,Rhum de la Réunion ,Ron
+Vinos UE,Eau-de-vie de Cognac ,Aguardiente de vino
+Vinos UE,Eau-de-vie des Charentes ,Aguardiente de vino
+Vinos UE,Cognac ,Aguardiente de vino
+Vinos UE,Eau-de-vie de Faugères ,Aguardiente de vino
+Vinos UE,Faugères ,Aguardiente de vino
+Vinos UE,Marc de Bourgogne/Eau-de-vie de marc de  Bourgogne,Aguardiente de orujo u orujo de  uva
+Vinos UE,Marc de Champagne/Eau-de-vie de marc de  Champagne,Aguardiente de orujo u orujo de  uva
+Vinos UE,Marc de Provence ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Marc de Savoie ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Marc des Côtes-du-Rhône/Eau-de-vie de marc des  Côtes du Rhône,Aguardiente de orujo u orujo de  uva
+Vinos UE,Marc du Bugey ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Marc du Languedoc ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Calvados Domfrontais ,Aguardiente de sidra o de  perada
+Vinos UE,Calvados Pays d'Auge ,Aguardiente de sidra o de  perada
+Vinos UE,Cassis de Bourgogne ,Crema de casis
+Vinos UE,Cassis de Saintonge ,Crema de casis
+Vinos UE,Fine de Bourgogne ,Aguardiente de vino
+Vinos UE,Rhum de sucrerie de la Baie du Galion ,Ron
+Vinos UE,Rhum des Antilles françaises ,Ron
+Vinos UE,Rhum des départements français d'outre-mer ,Ron
+Vinos UE,Whisky alsacien/Whisky d'Alsace ,Whisky o whiskey
+Vinos UE,Whisky breton/Whisky de Bretagne ,Whisky o whiskey
+Vinos UE,Génépi des Alpes/Genepì delle Alpi ,Licor
+Vinos UE,Hrvatska loza ,Aguardiente de fruta
+Vinos UE,Hrvatska stara šljivovica ,Aguardiente de fruta
+Vinos UE,Hrvatska travarica ,Otras bebidas espirituosas
+Vinos UE,Hrvatski pelinkovac ,Licor
+Vinos UE,Slavonska šljivovica ,Aguardiente de fruta
+Vinos UE,Zadarski maraschino ,"Maraschino, Marrasquino o  Maraskino"
+Vinos UE,Aprikot trentino/Aprikot del Trentino ,Aguardiente de fruta
+Vinos UE,Brandy italiano ,Brandy o Weinbrand
+Vinos UE,Distillato di mele trentino/Distillato di mele del Trentino ,Aguardiente de fruta
+Vinos UE,Genziana trentina/Genziana del Trentino ,Genciana
+Vinos UE,Grappa ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Grappa di Barolo ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Grappa friulana/Grappa del Friuli ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Grappa lombarda/Grappa della Lombardia ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Grappa piemontese/Grappa del Piemonte ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Grappa trentina/Grappa del Trentino ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Grappa veneta/Grappa del Veneto ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Sliwovitz del Friuli-Venezia Giulia ,Aguardiente de fruta
+Vinos UE,Sliwovitz trentino/Sliwovitz del Trentino ,Aguardiente de fruta
+Vinos UE,Südtiroler Grappa/Grappa dell'Alto Adige ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Südtiroler Gravensteiner/Gravensteiner dell'Alto  Adige ,Aguardiente de fruta
+Vinos UE,Südtiroler Kirsch/Kirsch dell'Alto Adige ,Aguardiente de fruta
+Vinos UE,Südtiroler Marille/Marille dell'Alto Adige ,Aguardiente de fruta
+Vinos UE,Südtiroler Obstler/Obstler dell'Alto Adige ,Aguardiente de fruta
+Vinos UE,Südtiroler Williams/Williams dell'Alto Adige ,Aguardiente de fruta
+Vinos UE,Südtiroler Zwetschgeler/Zwetschgeler dell'Alto Adige ,Aguardiente de fruta
+Vinos UE,Williams friulano/Williams del Friuli ,Aguardiente de fruta
+Vinos UE,Williams trentino/Williams del Trentino ,Aguardiente de fruta
+Vinos UE,Kirsch Friulano/Kirschwasser Friulano ,Aguardiente de fruta
+Vinos UE,Kirsch Trentino/Kirschwasser Trentino ,Aguardiente de fruta
+Vinos UE,Südtiroler Enzian/Genziana dell'Alto Adige ,Genciana
+Vinos UE,Genepì del Piemonte ,Licor
+Vinos UE,Genepì della Valle d'Aosta ,Licor
+Vinos UE,Grappa siciliana/Grappa di Sicilia ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Liquore di limone della Costa d'Amalfi ,Licor
+Vinos UE,Liquore di limone di Sorrento ,Licor
+Vinos UE,Mirto di Sardegna ,Licor
+Vinos UE,Nocino di Modena ,Nocino
+Vinos UE,Ζιβανία/Τζιβανία/Ζιβάνα/Zivania ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Originali lietuviška degtinė/Original Lithuanian vodka ,Vodka
+Vinos UE,Originali lietuviška degtinė/Original Lithuanian vodka ,Vodka aromatizado
+Vinos UE,Samanė ,Bebida espirituosa de cereales
+Vinos UE,Trauktinė ,Otras bebidas espirituosas
+Vinos UE,Trauktinė Dainava ,Otras bebidas espirituosas
+Vinos UE,Trauktinė Palanga ,Otras bebidas espirituosas
+Vinos UE,Vilniaus Džinas/Vilnius Gin ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Békési Szilvapálinka ,Aguardiente de fruta
+Vinos UE,Gönci Barackpálinka ,Aguardiente de fruta
+Vinos UE,Kecskeméti Barackpálinka ,Aguardiente de fruta
+Vinos UE,Szabolcsi Almapálinka ,Aguardiente de fruta
+Vinos UE,Szatmári Szilvapálinka ,Aguardiente de fruta
+Vinos UE,Törkölypálinka ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Újfehértói meggypálinka ,Aguardiente de fruta
+Vinos UE,Pálinka ,Aguardiente de fruta
+Vinos UE,Jägertee/Jagertee/Jagatee ,Licor
+Vinos UE,Steinfelder Magenbitter ,Licor
+Vinos UE,Wachauer Marillenbrand ,Aguardiente de fruta
+Vinos UE,Wachauer Marillenlikör ,Licor
+Vinos UE,Wachauer Weinbrand ,Brandy o Weinbrand
+Vinos UE,Mariazeller Magenlikör ,Licor
+Vinos UE,Inländerrum ,Otras bebidas espirituosas
+Vinos UE,Herbal vodka from the North Podlasie Lowland  aromatised with an extract of bison grass/Wódka  ziołowa z Niziny Północnopodlaskiej aromatyzowana  ekstraktem z trawy żubrowej,Vodka aromatizado
+Vinos UE,Polska Wódka/Polish Vodka ,Vodka
+Vinos UE,Polska Wódka/Polish Vodka ,Vodka aromatizado
+Vinos UE,Aguardente Bagaceira da Região dos Vinhos Verdes ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Aguardente de Vinho da Região dos Vinhos Verdes ,Aguardiente de vino
+Vinos UE,Rum da Madeira ,Ron
+Vinos UE,Aguardente de Vinho Alentejo ,Aguardiente de vino
+Vinos UE,Aguardente de Vinho Douro ,Aguardiente de vino
+Vinos UE,Aguardente de Vinho Ribatejo ,Aguardiente de vino
+Vinos UE,Aguardente Bagaceira Alentejo ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Aguardente Bagaceira Bairrada ,Aguardiente de orujo u orujo de  uva
+Vinos UE,Aguardente de Vinho Lourinhã ,Aguardiente de vino
+Vinos UE,Poncha da Madeira ,Licor
+Vinos UE,Horincă de Cămârzana ,Aguardiente de fruta
+Vinos UE,Pălincă ,Aguardiente de fruta
+Vinos UE,Țuică de Argeș ,Aguardiente de fruta
+Vinos UE,Țuică Zetea de Medieșu Aurit ,Aguardiente de fruta
+Vinos UE,Vinars Murfatlar ,Aguardiente de vino
+Vinos UE,Vinars Segarcea ,Aguardiente de vino
+Vinos UE,Vinars Târnave ,Aguardiente de vino
+Vinos UE,Vinars Vaslui ,Aguardiente de vino
+Vinos UE,Vinars Vrancea ,Aguardiente de vino
+Vinos UE,Brinjevec ,Aguardiente de fruta
+Vinos UE,Dolenjski sadjevec ,Aguardiente de fruta
+Vinos UE,Domači rum ,Otras bebidas espirituosas
+Vinos UE,Pelinkovec ,Licor
+Vinos UE,Spišská borovička ,Bebidas espirituosas con sabor  a enebro
+Vinos UE,Suomalainen Vodka/Finsk Vodka/Vodka of Finland ,Vodka
+Vinos UE,Suomalainen Marjalikööri/Suomalainen  Hedelmälikööri/Finsk Bärlikör/Finsk Fruktlikör/Finnish  berry liqueur/Finnish fruit liqueur,Licor
+Vinos UE,Svensk Aquavit/Svensk Akvavit/Swedish Aquavit ,Akvavit o aquavit
+Vinos UE,Svensk Punsch/Swedish Punch ,Otras bebidas espirituosas
+Vinos UE,Svensk Vodka/Swedish Vodka ,Vodka
+Vinos UE,Indicación geográfica,
+Vinos UE,Nürnberger Glühwein,
+Vinos UE,Thüringer Glühwein,
+Vinos UE,Vermouth de Chambéry,
+Vinos UE,Samoborski bermet,
+Vinos UE,Vermouth di Torino,
+Tailandia,Sangyod Maung Phatthalung Rice,
+Tailandia,Sakon Dhavapi Haang Golden Aromatic Rice,Arroces
+Tailandia,Thung Kula Rong-Hai Thai Hom Mali Rice,Arroces
+Tailandia,Surin Hom Mali Rice,Arroces
+Tailandia,Khao Jek Chuey Sao Hai,Arroces
+Tailandia,Khao Leuang Patew Chumphon,Arroces
+Tailandia,Kaowong Kalasin Sticky Rice,Arroces
+Tailandia,Khao Kum Lanna,Arroces
+Tailandia,Nakonchaisri Pomelo,Arroces
+Tailandia,Phetchabun Sweet Tamarind,Frutas
+Tailandia,Chainat Khaotangkwa Pomelo,Frutas
+Tailandia,Sriracha Pineapple,Frutas
+Tailandia,Chiangrai Phulae Pineapple,Frutas
+Tailandia,Nanglae Pineapple,Frutas
+Tailandia,Phuket Pineapple,Frutas
+Tailandia,Phet Rose Apple,Frutas
+Tailandia,Gluay Hin Bannang Sata,Frutas
+Tailandia,Kathoh-Hor-Bangkrang,Frutas
+Tailandia,Nont Durian,Frutas
+Tailandia,Samutsongkhram Kom Lychee,Frutas
+Tailandia,Som-O Khao Yai Samutsongkram,Frutas
+Tailandia,Pakpanang Tabtimsiam Pomelo,Frutas
+Tailandia,Trang Roast Pork,Frutas
+Tailandia,Doi Tung Coffee,Otros Alimentos y Bebidas
+Tailandia,Suratthani Oyster,Otros Alimentos y Bebidas
+Tailandia,Doi Chaang Coffee,Otros Alimentos y Bebidas
+Tailandia,Chaiya Salted Eggs,Otros Alimentos y Bebidas
+Tailandia,Phurua Plateau Wine,Otros Alimentos y Bebidas
+Tailandia,Mae Jaem Teen Jok Fabric,Vinos
+Tailandia,Lamphun Brocade Thai Silk,Textiles
+Tailandia,Praewa Kalasin Thai Silk,Textiles
+Tailandia,Chonnabot Mudmee Thai Silk,Textiles
+Tailandia,Bor Sang Umbrella,Textiles
+Tailandia,Ban Chiang Pottery,Artesanías
+Tailandia,Chiangmai Celadon,Artesanías
+Tailandia,Phanat Nikhom Basketry,Artesanías
+Tailandia,Yok Mlabri Nan,Artesanías
+Tailandia,Kohkret Potte,Artesanías
+Irlanda,Scotch Whisky,
+Irlanda,Irish Whiskey,
+Irlanda,Uisce Beatha Eireannach,
+Irlanda,malt,
+Irlanda,grain,
+Irlanda,Pot Still,
+Irlanda,Irish Cream,
+China,Vino Shaoxing,
+China,Anxi Tieguanyin,té
+Corea,Ginseng coreano,Ginseng 
+Corea,Kimchi coreano,Kimchi
+Corea,Boseong,té
