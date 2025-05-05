@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 from SBERT_Multilingue import buscar_marcas_similares as modelo_sbert
@@ -21,6 +20,10 @@ def combinar_modelos_v2_unicos(marca_input, umbral=80.0):
                     })
         except Exception as e:
             print(f"Error en {nombre_modelo}: {e}")
+
+    # Verifica si hay resultados antes de crear y manipular el DataFrame
+    if not resultados:
+        return pd.DataFrame(columns=["Modelo", "Marca", "Similitud (%)"])
 
     df = pd.DataFrame(resultados)
     df = df.sort_values("Similitud (%)", ascending=False)
