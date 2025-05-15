@@ -10,7 +10,7 @@ except Exception as e:
 
 # Cargar CSV de marcas
 try:
-    df = pd.read_csv("IGS - Consolidado.csv")
+    df = pd.read_csv("base.csv")
     marca_textos = df["NombreProducto"].astype(str).str.lower().tolist()
     if model:
         marca_embeddings = model.encode(marca_textos, convert_to_tensor=True)
