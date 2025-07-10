@@ -80,7 +80,6 @@ def modelo_sbert_mock(marca_input):
     """Función simulada de SBERT. Devuelve coincidencias de la DB expandida."""
     resultados = []
     for marca_db in MARCAS_DB_EXPANDIDA:
-        # Simulación simple de similitud: si la palabra está contenida.
         if marca_input.lower() in marca_db.lower():
             similitud = 90.0 + len(marca_input) # Simulación
             resultados.append((marca_db, similitud))
@@ -107,7 +106,6 @@ def combinar_modelos_v2_unicos(marca_input, umbral=80.0):
         (modelo_sbert_mock, "SBERT")
     ]:
         try:
-            # Llama a tu función de búsqueda (aquí usamos la simulada)
             salida = modelo_func(marca_input)
             for marca, similitud in salida:
                 if similitud >= umbral:
@@ -117,7 +115,7 @@ def combinar_modelos_v2_unicos(marca_input, umbral=80.0):
                         "Modelo": nombre_modelo
                     })
         except Exception as e:
-            st.error(f"Error en el modelo {nombre_modelo}: {e}")
+            print(f"Error en {nombre_modelo}: {e}")
 
     if not resultados:
         return pd.DataFrame(columns=["Modelo", "Marca", "Similitud (%)"])
@@ -131,24 +129,20 @@ def combinar_modelos_v2_unicos(marca_input, umbral=80.0):
     df.index.name = "Índice"
     return df
 
-# ------------------ STREAMLIT INTERFAZ (SIN CAMBIOS) ------------------
-st.set_page_config(page_title="Buscador de Marcas", layout="wide")
+# ------------------ STREAMLIT INTERFAZ (FORMATO ORIGINAL) ------------------
 st.title("🔍 Buscador de marcas similares")
-
-st.info(f"La base de datos contiene {len(MARCAS_DB_EXPANDIDA)} términos únicos (originales + descompuestos).")
-
-marca = st.text_input("Ingresa la marca que deseas evaluar:", placeholder="Ej: Tequila, Shoes, Café...")
+marca = st.text_input("Ingresa la marca que deseas evaluar:")
 umbral = st.slider("Umbral mínimo de similitud (%)", 0, 100, 80)
 
 if st.button("Buscar"):
     if marca.strip():
-        with st.spinner("Buscando coincidencias..."):
-            df_resultados = combinar_modelos_v2_unicos(marca.strip(), umbral=float(umbral))
-            if df_resultados.empty:
-                st.warning("No se encontraron coincidencias por encima del umbral.")
-            else:
-                st.success(f"Se encontraron {len(df_resultados)} marcas similares únicas.")
-                st.dataframe(df_resultados, use_container_width=True)
+        # **IMPORTANTE**: Tus modelos reales (modelo_beto, modelo_sbert) deben ser 
+        # modificados para usar la lista `MARCAS_DB_EXPANDIDA` que se genera al inicio.
+        df_resultados = combinar_modelos_v2_unicos(marca.strip(), umbral=umbral)
+        if df_resultados.empty:
+            st.warning("No se encontraron coincidencias sobre el umbral.")
+        else:
+            st.success(f"{len(df_resultados)} marcas similares encontradas.")
+            st.dataframe(df_resultados)
     else:
         st.error("Por favor, ingresa una marca.")
-
