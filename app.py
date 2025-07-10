@@ -87,7 +87,18 @@ st.sidebar.success(f"Modelos y {len(terminos_expandidos)} términos cargados.")
 
 def buscar_similitud(texto_input, modelo, terminos, embeddings_db, top_n=5):
     """Función genérica para buscar similitud usando un modelo y embeddings precalculados."""
+    # Añadir comprobación para evitar errores si los embeddings no se cargaron
+    if embeddings_db is None:
+        return []
+        
     input_embedding = modelo.encode(texto_input, convert_to_tensor=True)
+    
+    # --- FIX PARA RUNTIMEERROR ---
+    # Asegurarse de que ambos tensores están en el mismo dispositivo (CPU/GPU)
+    device = embeddings_db.device
+    input_embedding = input_embedding.to(device)
+    # --- FIN DEL FIX ---
+
     cos_scores = util.pytorch_cos_sim(input_embedding, embeddings_db)[0]
     
     # Emparejar cada término con su puntuación
