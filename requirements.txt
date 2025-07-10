@@ -3,3 +3,4 @@ streamlit
 pandas
 sentence-transformers
 scipy
+torch
