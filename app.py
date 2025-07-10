@@ -17,21 +17,49 @@ except Exception as e:
     st.error(f"Ocurrió un error inesperado al cargar los modelos: {e}")
     st.stop()
 
+# --- NUEVO: Carga de datos para comprobación directa ---
+@st.cache_data
+def load_brand_list():
+    """Carga la lista de marcas desde el CSV para comprobación directa y depuración."""
+    try:
+        df = pd.read_csv("base.csv")
+        # Asegurarse de que no haya nulos y todo sea string
+        marcas = df["NombreProducto"].dropna().astype(str).tolist()
+        return marcas
+    except Exception as e:
+        st.warning(f"No se pudo cargar 'base.csv' para la comprobación de coincidencias exactas: {e}")
+        return []
 
-# --- 2. LÓGICA PARA COMBINAR RESULTADOS (Tu función original) ---
+# Carga la lista de marcas una sola vez
+marcas_para_comprobacion = load_brand_list()
+
+
+# --- 2. LÓGICA PARA COMBINAR RESULTADOS (MODIFICADA) ---
 def combinar_modelos_v2_unicos(marca_input, umbral=80.0):
     """
-    Llama a cada modelo, recopila los resultados que superan el umbral
-    y los combina en un único DataFrame sin duplicados.
+    Primero busca una coincidencia exacta, luego llama a cada modelo, 
+    recopila los resultados que superan el umbral y los combina.
     """
     resultados = []
-    # Llama a cada modelo importado
+    input_lower = marca_input.strip().lower()
+
+    # --- PASO 1: Búsqueda de Coincidencia Exacta (ignora mayúsculas/minúsculas) ---
+    for marca_db in marcas_para_comprobacion:
+        if marca_db.strip().lower() == input_lower:
+            resultados.append({
+                "Marca": marca_db.strip(), # Usar la versión original para mostrar
+                "Similitud (%)": 100.0,
+                "Modelo": "Coincidencia Exacta"
+            })
+            break # Encontramos la coincidencia, no es necesario seguir buscando
+
+    # --- PASO 2: Búsqueda por Similitud con los modelos de IA ---
     for modelo_func, nombre_modelo in [
         (modelo_beto, "BETO"),
         (modelo_sbert, "SBERT")
     ]:
         try:
-            # Llama a la función de búsqueda (ej: buscar_marcas_similares)
+            # Llama a la función de búsqueda de cada modelo
             salida = modelo_func(marca_input)
             for marca, similitud in salida:
                 if similitud >= umbral:
