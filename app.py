@@ -16,9 +16,13 @@ except LookupError:
 
 @st.cache_resource
 def cargar_modelos():
-    """Carga los modelos de IA una sola vez y los mantiene en caché."""
-    sbert_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-    beto_model = SentenceTransformer("hiiamsid/sentence_similarity_spanish_es")
+    """
+    Carga los modelos de IA una sola vez y los mueve a la CPU.
+    Forzar el uso de la CPU es más estable en Streamlit Cloud.
+    """
+    device = 'cpu'
+    sbert_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2", device=device)
+    beto_model = SentenceTransformer("hiiamsid/sentence_similarity_spanish_es", device=device)
     return {"SBERT": sbert_model, "BETO": beto_model}
 
 @st.cache_data
@@ -87,18 +91,13 @@ st.sidebar.success(f"Modelos y {len(terminos_expandidos)} términos cargados.")
 
 def buscar_similitud(texto_input, modelo, terminos, embeddings_db, top_n=5):
     """Función genérica para buscar similitud usando un modelo y embeddings precalculados."""
-    # Añadir comprobación para evitar errores si los embeddings no se cargaron
     if embeddings_db is None:
         return []
         
     input_embedding = modelo.encode(texto_input, convert_to_tensor=True)
     
-    # --- FIX PARA RUNTIMEERROR ---
-    # Asegurarse de que ambos tensores están en el mismo dispositivo (CPU/GPU)
-    device = embeddings_db.device
-    input_embedding = input_embedding.to(device)
-    # --- FIN DEL FIX ---
-
+    # Dado que el modelo se cargó en la CPU, los tensores que crea también estarán en la CPU.
+    # No se necesita una conversión de dispositivo explícita aquí.
     cos_scores = util.pytorch_cos_sim(input_embedding, embeddings_db)[0]
     
     # Emparejar cada término con su puntuación
