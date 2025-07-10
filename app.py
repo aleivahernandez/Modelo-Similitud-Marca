@@ -96,9 +96,13 @@ def buscar_similitud(texto_input, modelo, terminos, embeddings_db, top_n=5):
         
     input_embedding = modelo.encode(texto_input, convert_to_tensor=True)
     
-    # Dado que el modelo se cargó en la CPU, los tensores que crea también estarán en la CPU.
-    # No se necesita una conversión de dispositivo explícita aquí.
-    cos_scores = util.pytorch_cos_sim(input_embedding, embeddings_db)[0]
+    # --- FIX PARA RUNTIMEERROR (Versión Definitiva) ---
+    # Forzar ambos tensores a la CPU justo antes de la operación para máxima estabilidad.
+    input_embedding_cpu = input_embedding.to('cpu')
+    embeddings_db_cpu = embeddings_db.to('cpu')
+    # --- FIN DEL FIX ---
+    
+    cos_scores = util.pytorch_cos_sim(input_embedding_cpu, embeddings_db_cpu)[0]
     
     # Emparejar cada término con su puntuación
     top_results = sorted(zip(terminos, cos_scores), key=lambda x: x[1], reverse=True)
