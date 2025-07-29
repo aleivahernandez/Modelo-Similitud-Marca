@@ -1,6 +1,5 @@
-nltk
 streamlit
 pandas
 sentence-transformers
-scipy
 torch
+transformers
