@@ -5,14 +5,12 @@ import pandas as pd
 from SBERT_Multilingue import buscar_marcas_similares as modelo_sbert
 from BETO import buscar_marcas_similares as modelo_beto
 from Ngrams import buscar_marcas_similares as modelo_ngrams
-# Se eliminó la importación del modelo fonético
 
 def crear_dataframe_comparativo(marca_input, umbral=80.0):
     """
     Procesa los modelos y devuelve un único DataFrame con los resultados
     en columnas separadas, limitado a un máximo de 5 registros por columna.
     """
-    # Se elimina la categoría "Fonética"
     modelos_por_categoria = {
         "Semántica": [modelo_beto, modelo_sbert],
         "Ngrama": [modelo_ngrams]
@@ -51,7 +49,6 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
     lista_ngrama = sorted(resultados_agrupados["ngrama"].values(), key=lambda item: item[1], reverse=True)[:5]
     lista_ngrama_str = [f"{marca} ({similitud:.2f}%)" for marca, similitud in lista_ngrama]
 
-    # Crear el DataFrame con columnas independientes
     max_len = max(len(lista_semantica_str), len(lista_ngrama_str))
     
     if max_len == 0:
@@ -60,7 +57,6 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
     def pad_list(lst, length):
         return lst + [""] * (length - len(lst))
 
-    # Se elimina la columna "Fonética" del DataFrame final
     data = {
         'Semántica': pad_list(lista_semantica_str, max_len),
         'Ngrama': pad_list(lista_ngrama_str, max_len)
@@ -75,13 +71,14 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
 
 # ------------------ Interfaz de Usuario de Streamlit ------------------
 
-st.set_page_config(page_title="Buscador de Marcas", page_icon="🔬", layout="wide")
+st.set_page_config(page_title="Buscador de Términos", page_icon="🔬", layout="wide")
 
-st.title("🔬 Tabla Comparativa de Modelos de Similitud")
+# --- TÍTULO CAMBIADO ---
+st.title("🔬 Buscador de Términos Protegidos")
 
 marca_input_text = st.text_input(
-    "Ingresa la marca que deseas evaluar:",
-    placeholder="Ej: Sabritas o Sabritas"
+    "Ingresa el término que deseas evaluar:",
+    placeholder="Ej: Leche o Zapatilla"
 )
 umbral_input_value = st.slider(
     "Umbral mínimo de similitud (%)",
@@ -91,7 +88,8 @@ umbral_input_value = st.slider(
     step=5
 )
 
-if st.button("Generar Tabla Comparativa", type="primary"):
+# --- BOTÓN CAMBIADO ---
+if st.button("Buscar", type="primary"):
     if marca_input_text.strip():
         with st.spinner("Analizando y construyendo tabla..."):
             df_resultados = crear_dataframe_comparativo(
@@ -99,11 +97,11 @@ if st.button("Generar Tabla Comparativa", type="primary"):
                 umbral=float(umbral_input_value)
             )
         
-        st.success("¡Análisis completado!")
+        st.success("¡Búsqueda completada!")
 
         if not df_resultados.empty:
             st.dataframe(df_resultados, use_container_width=True)
         else:
             st.warning("No se encontraron coincidencias por encima del umbral seleccionado.")
     else:
-        st.error("Por favor, ingresa el nombre de una marca para buscar.")
+        st.error("Por favor, ingresa un término para buscar.")
