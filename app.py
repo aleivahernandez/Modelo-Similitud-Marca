@@ -5,25 +5,33 @@ import pandas as pd
 from SBERT_Multilingue import buscar_marcas_similares as modelo_sbert
 from BETO import buscar_marcas_similares as modelo_beto
 from Ngrams import buscar_marcas_similares as modelo_ngrams
+from Fonetica import buscar_marcas_similares as modelo_fonetico
 
-def combinar_modelos_por_tipo(marca_input, umbral=80.0):
+def combinar_modelos_en_listas(marca_input, umbral=80.0):
     """
-    Combina los resultados de diferentes modelos en un DataFrame con columnas
-    por tipo de modelo ('Semántica', 'Ngrama').
+    Procesa los modelos y devuelve los resultados en listas separadas por categoría.
     """
-    # 1. Definir qué modelos pertenecen a cada categoría
     modelos_por_categoria = {
         "Semántica": [modelo_beto, modelo_sbert],
-        "Ngrama": [modelo_ngrams]
+        "Ngrama": [modelo_ngrams],
+        "Fonética": [modelo_fonetico]
     }
     
-    resultados_agrupados = {
-        "Semántica": {}, # Usamos dict para manejar duplicados: {'marca': score}
-        "Ngrama": {}
+    resultados_finales = {
+        "semantica": {},
+        "ngrama": {},
+        "fonetica": {}
     }
 
-    # 2. Ejecutar modelos y recopilar resultados por categoría
-    for categoria, modelos in modelos_por_categoria.items():
+    # Asignar claves correctas del diccionario
+    categoria_map = {
+        "Semántica": "semantica",
+        "Ngrama": "ngrama",
+        "Fonética": "fonetica"
+    }
+
+    for categoria_nombre, modelos in modelos_por_categoria.items():
+        clave_resultado = categoria_map[categoria_nombre]
         for modelo_func in modelos:
             try:
                 salida = modelo_func(marca_input)
@@ -33,58 +41,34 @@ def combinar_modelos_por_tipo(marca_input, umbral=80.0):
                 for marca, similitud in salida:
                     if similitud >= umbral:
                         marca_lower = marca.strip().lower()
-                        # Si la marca ya fue encontrada, quedarse con el score más alto
-                        if marca_lower not in resultados_agrupados[categoria] or similitud > resultados_agrupados[categoria][marca_lower]:
-                            resultados_agrupados[categoria][marca_lower] = similitud
+                        # Guardar o actualizar solo si la similitud es mayor
+                        if marca_lower not in resultados_finales[clave_resultado] or similitud > resultados_finales[clave_resultado][marca_lower][1]:
+                            resultados_finales[clave_resultado][marca_lower] = (marca.title(), similitud)
             except Exception as e:
-                st.warning(f"Error procesando un modelo en la categoría '{categoria}': {e}")
+                st.warning(f"Error en modelo de '{categoria_nombre}': {e}")
 
-    # 3. Obtener una lista de todas las marcas únicas encontradas
-    todas_las_marcas = set(resultados_agrupados["Semántica"].keys()) | set(resultados_agrupados["Ngrama"].keys())
-
-    if not todas_las_marcas:
-        return pd.DataFrame()
-
-    # 4. Construir el DataFrame final
-    data = []
-    for marca in sorted(list(todas_las_marcas)):
-        fila = {"Marca Encontrada": marca.title()}
-        
-        # Formato "Palabra (Similitud%)" para la columna Semántica
-        if marca in resultados_agrupados["Semántica"]:
-            score = resultados_agrupados["Semántica"][marca]
-            fila["Semántica"] = f"{marca.title()} ({score:.2f}%)"
-        else:
-            fila["Semántica"] = ""
-            
-        # Formato para la columna Ngrama
-        if marca in resultados_agrupados["Ngrama"]:
-            score = resultados_agrupados["Ngrama"][marca]
-            fila["Ngrama"] = f"{marca.title()} ({score:.2f}%)"
-        else:
-            fila["Ngrama"] = ""
-            
-        data.append(fila)
-
-    df = pd.DataFrame(data)
-    df = df.set_index("Marca Encontrada") # Poner las marcas como índice de fila
+    # Convertir los diccionarios de resultados a listas ordenadas
+    listas_ordenadas = {
+        "semantica": sorted(resultados_finales["semantica"].values(), key=lambda item: item[1], reverse=True),
+        "ngrama": sorted(resultados_finales["ngrama"].values(), key=lambda item: item[1], reverse=True),
+        "fonetica": sorted(resultados_finales["fonetica"].values(), key=lambda item: item[1], reverse=True)
+    }
     
-    return df
+    return listas_ordenadas
 
 # ------------------ Interfaz de Usuario de Streamlit ------------------
 
-st.set_page_config(page_title="Buscador de Marcas", page_icon="🔍")
+st.set_page_config(page_title="Buscador de Marcas", page_icon="🔬", layout="wide")
 
 st.title("🔬 Comparador de Modelos de Similitud")
 st.info(
-    "Compara los resultados de modelos semánticos (BETO/SBERT) contra modelos "
-    "basados en caracteres (N-Grams)."
+    "Compara los resultados de modelos semánticos, de caracteres (N-Grams) y fonéticos, presentados en listas separadas."
 )
 
 # --- Entradas del usuario ---
 marca_input_text = st.text_input(
     "Ingresa la marca que deseas evaluar:",
-    placeholder="Ej: Adiddas"
+    placeholder="Ej: Cerveza o Serbesa"
 )
 umbral_input_value = st.slider(
     "Umbral mínimo de similitud (%)",
@@ -98,17 +82,38 @@ umbral_input_value = st.slider(
 if st.button("Comparar Modelos", type="primary"):
     if marca_input_text.strip():
         with st.spinner("Analizando con todos los modelos..."):
-            # Llama a la nueva función que agrupa por tipo
-            df_resultados = combinar_modelos_por_tipo(
+            resultados_listas = combinar_modelos_en_listas(
                 marca_input_text.strip(),
                 umbral=float(umbral_input_value)
             )
         
-        # Muestra los resultados si se encontraron
-        if not df_resultados.empty:
-            st.success(f"¡Análisis completado! Se encontraron {len(df_resultados)} marcas únicas.")
-            st.dataframe(df_resultados, use_container_width=True)
-        else:
-            st.warning("No se encontraron coincidencias por encima del umbral seleccionado.")
+        st.success("¡Análisis completado!")
+
+        # Crear dos columnas para mostrar los resultados
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.subheader("🤖 Similitud Semántica")
+            if resultados_listas["semantica"]:
+                for marca, similitud in resultados_listas["semantica"]:
+                    st.write(f"{marca} ({similitud:.2f}%)")
+            else:
+                st.write("No se encontraron resultados.")
+
+        with col2:
+            st.subheader("✍️ Similitud por Caracteres (N-Grams)")
+            if resultados_listas["ngrama"]:
+                for marca, similitud in resultados_listas["ngrama"]:
+                    st.write(f"{marca} ({similitud:.2f}%)")
+            else:
+                st.write("No se encontraron resultados.")
+            
+            st.subheader("🗣️ Similitud Fonética")
+            if resultados_listas["fonetica"]:
+                for marca, similitud in resultados_listas["fonetica"]:
+                    st.write(f"{marca} ({similitud:.2f}%)")
+            else:
+                st.write("No se encontraron resultados.")
+
     else:
         st.error("Por favor, ingresa el nombre de una marca para buscar.")
