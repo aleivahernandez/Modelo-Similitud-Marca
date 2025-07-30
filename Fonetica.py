@@ -9,12 +9,13 @@ def cargar_base_de_datos():
     """Carga la base de datos desde el CSV y la retorna como una lista de marcas."""
     try:
         df = pd.read_csv("base_expandida.csv")
+        # Asegurarnos de que no hay valores nulos y están en minúsculas
         return df["Marcas"].dropna().str.lower().tolist()
     except FileNotFoundError:
-        st.error("Error Fonetico: No se encontró el archivo 'base_expandida.csv'.")
+        st.error("Error en Módulo Fonético: No se encontró el archivo 'base_expandida.csv'.")
         return []
     except KeyError:
-        st.error("Error Fonetico: El archivo 'base_expandida.csv' no contiene una columna llamada 'Marcas'.")
+        st.error("Error en Módulo Fonético: El archivo 'base_expandida.csv' no contiene una columna llamada 'Marcas'.")
         return []
 
 def buscar_marcas_similares(marca_input):
@@ -38,7 +39,6 @@ def buscar_marcas_similares(marca_input):
         codigo_marca = encoder.transform(marca)
         
         # Usar thefuzz para obtener un porcentaje de similitud entre los códigos fonéticos.
-        # Esto es más flexible que una simple igualdad (==).
         similitud = fuzz.ratio(codigo_input, codigo_marca)
         
         resultados.append((marca, similitud))
