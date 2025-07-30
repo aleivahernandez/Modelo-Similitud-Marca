@@ -10,7 +10,7 @@ from Fonetica import buscar_marcas_similares as modelo_fonetico
 def crear_dataframe_comparativo(marca_input, umbral=80.0):
     """
     Procesa los modelos y devuelve un único DataFrame con los resultados
-    en columnas separadas e indexadas.
+    en columnas separadas, limitado a un máximo de 5 registros por columna.
     """
     modelos_por_categoria = {
         "Semántica": [modelo_beto, modelo_sbert],
@@ -46,15 +46,21 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
             except Exception as e:
                 st.warning(f"Error en modelo de '{categoria_nombre}': {e}")
 
-    # Convertir a listas ordenadas y formatear el string de resultado
-    lista_semantica = sorted(resultados_agrupados["semantica"].values(), key=lambda item: item[1], reverse=True)
+    # --- MODIFICACIÓN CLAVE: Limitar a 5 resultados por categoría ---
+    
+    # Convertir, ordenar, limitar a 5 y formatear la lista Semántica
+    lista_semantica = sorted(resultados_agrupados["semantica"].values(), key=lambda item: item[1], reverse=True)[:5]
     lista_semantica_str = [f"{marca} ({similitud:.2f}%)" for marca, similitud in lista_semantica]
 
-    lista_ngrama = sorted(resultados_agrupados["ngrama"].values(), key=lambda item: item[1], reverse=True)
+    # Convertir, ordenar, limitar a 5 y formatear la lista Ngrama
+    lista_ngrama = sorted(resultados_agrupados["ngrama"].values(), key=lambda item: item[1], reverse=True)[:5]
     lista_ngrama_str = [f"{marca} ({similitud:.2f}%)" for marca, similitud in lista_ngrama]
 
-    lista_fonetica = sorted(resultados_agrupados["fonetica"].values(), key=lambda item: item[1], reverse=True)
+    # Convertir, ordenar, limitar a 5 y formatear la lista Fonética
+    lista_fonetica = sorted(resultados_agrupados["fonetica"].values(), key=lambda item: item[1], reverse=True)[:5]
     lista_fonetica_str = [f"{marca} ({similitud:.2f}%)" for marca, similitud in lista_fonetica]
+    
+    # ----------------------------------------------------------------
 
     # Crear el DataFrame con columnas independientes
     max_len = max(len(lista_semantica_str), len(lista_ngrama_str), len(lista_fonetica_str))
@@ -62,11 +68,9 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
     if max_len == 0:
         return pd.DataFrame()
 
-    # Rellenar listas para que todas tengan la misma longitud
     def pad_list(lst, length):
         return lst + [""] * (length - len(lst))
 
-    # Crear el diccionario de datos para el DataFrame
     data = {
         'Semántica': pad_list(lista_semantica_str, max_len),
         'Ngrama': pad_list(lista_ngrama_str, max_len),
@@ -75,7 +79,6 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
     
     df = pd.DataFrame(data)
     
-    # Añadir el índice comenzando en 1
     df.index = pd.RangeIndex(start=1, stop=len(df) + 1)
     df.index.name = "Índice"
     
@@ -87,7 +90,6 @@ st.set_page_config(page_title="Buscador de Marcas", page_icon="🔬", layout="wi
 
 st.title("🔬 Tabla Comparativa de Modelos de Similitud")
 
-# --- Entradas del usuario ---
 marca_input_text = st.text_input(
     "Ingresa la marca que deseas evaluar:",
     placeholder="Ej: Sabritas o Sabritas"
@@ -100,7 +102,6 @@ umbral_input_value = st.slider(
     step=5
 )
 
-# --- Botón de búsqueda y lógica de presentación ---
 if st.button("Generar Tabla Comparativa", type="primary"):
     if marca_input_text.strip():
         with st.spinner("Analizando y construyendo tabla..."):
