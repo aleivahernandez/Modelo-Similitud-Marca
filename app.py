@@ -5,29 +5,27 @@ import pandas as pd
 from SBERT_Multilingue import buscar_marcas_similares as modelo_sbert
 from BETO import buscar_marcas_similares as modelo_beto
 from Ngrams import buscar_marcas_similares as modelo_ngrams
-from Fonetica import buscar_marcas_similares as modelo_fonetico
+# Se eliminó la importación del modelo fonético
 
 def crear_dataframe_comparativo(marca_input, umbral=80.0):
     """
     Procesa los modelos y devuelve un único DataFrame con los resultados
     en columnas separadas, limitado a un máximo de 5 registros por columna.
     """
+    # Se elimina la categoría "Fonética"
     modelos_por_categoria = {
         "Semántica": [modelo_beto, modelo_sbert],
-        "Ngrama": [modelo_ngrams],
-        "Fonética": [modelo_fonetico]
+        "Ngrama": [modelo_ngrams]
     }
     
     resultados_agrupados = {
         "semantica": {},
-        "ngrama": {},
-        "fonetica": {}
+        "ngrama": {}
     }
 
     categoria_map = {
         "Semántica": "semantica",
-        "Ngrama": "ngrama",
-        "Fonética": "fonetica"
+        "Ngrama": "ngrama"
     }
 
     # Recopilar y deduplicar resultados dentro de cada categoría
@@ -46,24 +44,15 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
             except Exception as e:
                 st.warning(f"Error en modelo de '{categoria_nombre}': {e}")
 
-    # --- MODIFICACIÓN CLAVE: Limitar a 5 resultados por categoría ---
-    
-    # Convertir, ordenar, limitar a 5 y formatear la lista Semántica
+    # Convertir, ordenar y limitar a 5 resultados
     lista_semantica = sorted(resultados_agrupados["semantica"].values(), key=lambda item: item[1], reverse=True)[:5]
     lista_semantica_str = [f"{marca} ({similitud:.2f}%)" for marca, similitud in lista_semantica]
 
-    # Convertir, ordenar, limitar a 5 y formatear la lista Ngrama
     lista_ngrama = sorted(resultados_agrupados["ngrama"].values(), key=lambda item: item[1], reverse=True)[:5]
     lista_ngrama_str = [f"{marca} ({similitud:.2f}%)" for marca, similitud in lista_ngrama]
 
-    # Convertir, ordenar, limitar a 5 y formatear la lista Fonética
-    lista_fonetica = sorted(resultados_agrupados["fonetica"].values(), key=lambda item: item[1], reverse=True)[:5]
-    lista_fonetica_str = [f"{marca} ({similitud:.2f}%)" for marca, similitud in lista_fonetica]
-    
-    # ----------------------------------------------------------------
-
     # Crear el DataFrame con columnas independientes
-    max_len = max(len(lista_semantica_str), len(lista_ngrama_str), len(lista_fonetica_str))
+    max_len = max(len(lista_semantica_str), len(lista_ngrama_str))
     
     if max_len == 0:
         return pd.DataFrame()
@@ -71,10 +60,10 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
     def pad_list(lst, length):
         return lst + [""] * (length - len(lst))
 
+    # Se elimina la columna "Fonética" del DataFrame final
     data = {
         'Semántica': pad_list(lista_semantica_str, max_len),
-        'Ngrama': pad_list(lista_ngrama_str, max_len),
-        'Fonética': pad_list(lista_fonetica_str, max_len)
+        'Ngrama': pad_list(lista_ngrama_str, max_len)
     }
     
     df = pd.DataFrame(data)
