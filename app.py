@@ -5,25 +5,30 @@ import pandas as pd
 from SBERT_Multilingue import buscar_marcas_similares as modelo_sbert
 from BETO import buscar_marcas_similares as modelo_beto
 from Ngrams import buscar_marcas_similares as modelo_ngrams
+from Fonetica import buscar_marcas_similares as modelo_fonetico # Modelo reincorporado
 
 def crear_dataframe_comparativo(marca_input, umbral=80.0):
     """
     Procesa los modelos y devuelve un único DataFrame con los resultados
     en columnas separadas, limitado a un máximo de 5 registros por columna.
     """
+    # Se reincorpora la categoría "Fonética"
     modelos_por_categoria = {
         "Semántica": [modelo_beto, modelo_sbert],
-        "Ngrama": [modelo_ngrams]
+        "Ngrama": [modelo_ngrams],
+        "Fonética": [modelo_fonetico]
     }
     
     resultados_agrupados = {
         "semantica": {},
-        "ngrama": {}
+        "ngrama": {},
+        "fonetica": {} # Se añade el diccionario para resultados fonéticos
     }
 
     categoria_map = {
         "Semántica": "semantica",
-        "Ngrama": "ngrama"
+        "Ngrama": "ngrama",
+        "Fonética": "fonetica" # Se añade la correspondencia
     }
 
     # Recopilar y deduplicar resultados dentro de cada categoría
@@ -49,7 +54,13 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
     lista_ngrama = sorted(resultados_agrupados["ngrama"].values(), key=lambda item: item[1], reverse=True)[:5]
     lista_ngrama_str = [f"{marca} ({similitud:.2f}%)" for marca, similitud in lista_ngrama]
 
-    max_len = max(len(lista_semantica_str), len(lista_ngrama_str))
+    # Se procesa la lista de resultados fonéticos
+    lista_fonetica = sorted(resultados_agrupados["fonetica"].values(), key=lambda item: item[1], reverse=True)[:5]
+    lista_fonetica_str = [f"{marca} ({similitud:.2f}%)" for marca, similitud in lista_fonetica]
+
+
+    # Crear el DataFrame con columnas independientes
+    max_len = max(len(lista_semantica_str), len(lista_ngrama_str), len(lista_fonetica_str))
     
     if max_len == 0:
         return pd.DataFrame()
@@ -57,9 +68,11 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
     def pad_list(lst, length):
         return lst + [""] * (length - len(lst))
 
+    # Se reincorpora la columna "Fonética" al DataFrame final
     data = {
         'Semántica': pad_list(lista_semantica_str, max_len),
-        'Ngrama': pad_list(lista_ngrama_str, max_len)
+        'Ngrama': pad_list(lista_ngrama_str, max_len),
+        'Fonética': pad_list(lista_fonetica_str, max_len)
     }
     
     df = pd.DataFrame(data)
@@ -73,7 +86,6 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
 
 st.set_page_config(page_title="Buscador de Términos", page_icon="🔬", layout="wide")
 
-# --- TÍTULO CAMBIADO ---
 st.title("🔬 Buscador de Términos Protegidos")
 
 marca_input_text = st.text_input(
@@ -88,7 +100,6 @@ umbral_input_value = st.slider(
     step=5
 )
 
-# --- BOTÓN CAMBIADO ---
 if st.button("Buscar", type="primary"):
     if marca_input_text.strip():
         with st.spinner("Analizando y construyendo tabla..."):
