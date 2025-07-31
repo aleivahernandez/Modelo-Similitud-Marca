@@ -3,5 +3,5 @@ pandas
 sentence-transformers
 torch
 transformers
-fonetika>=1.2
+jellyfish
 thefuzz
