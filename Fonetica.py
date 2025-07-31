@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-from fonetika.metaphone import es as metaphone_es
+from fonetika import Fonetika # <- CAMBIO 1: Se importa la clase principal
 from thefuzz import fuzz
 
 # Usamos el caché de Streamlit para leer el CSV solo una vez.
@@ -9,13 +9,13 @@ def cargar_base_de_datos():
     """Carga la base de datos desde el CSV y la retorna como una lista de marcas."""
     try:
         df = pd.read_csv("base_expandida.csv")
-        # Asegurarnos de que no hay valores nulos y están en minúsculas
-        return df["Marcas"].dropna().str.lower().tolist()
+        # Leemos la primera columna (índice 0), sin importar su nombre.
+        return df.iloc[:, 0].dropna().str.lower().tolist()
     except FileNotFoundError:
         st.error("Error en Módulo Fonético: No se encontró el archivo 'base_expandida.csv'.")
         return []
-    except KeyError:
-        st.error("Error en Módulo Fonético: El archivo 'base_expandida.csv' no contiene una columna llamada 'Marcas'.")
+    except IndexError:
+        st.error("Error en Módulo Fonético: El archivo 'base_expandida.csv' parece estar vacío.")
         return []
 
 def buscar_marcas_similares(marca_input):
@@ -27,8 +27,8 @@ def buscar_marcas_similares(marca_input):
     if not marcas_base:
         return []
 
-    # Inicializar el codificador Metaphone para español
-    encoder = metaphone_es()
+    # <- CAMBIO 2: Se instancia la clase con el idioma 'es'
+    encoder = Fonetika(language='es')
 
     # Obtener el código fonético de la marca de entrada
     codigo_input = encoder.transform(marca_input)
