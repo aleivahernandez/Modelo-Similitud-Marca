@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-from fonetika import Fonetika # Esto funcionará con la librería actualizada
+import jellyfish # <- CAMBIO: Se usa la librería jellyfish
 from thefuzz import fuzz
 
 @st.cache_data
@@ -18,21 +18,23 @@ def cargar_base_de_datos():
 
 def buscar_marcas_similares(marca_input):
     """
-    Busca marcas fonéticamente similares usando el algoritmo Metaphone para español.
+    Busca marcas fonéticamente similares usando el algoritmo Metaphone de jellyfish.
     """
     marcas_base = cargar_base_de_datos()
     if not marcas_base:
         return []
 
-    # Instancia la clase con el idioma 'es'
-    encoder = Fonetika(language='es')
-
-    codigo_input = encoder.transform(marca_input)
+    # Obtener el código fonético de la marca de entrada usando jellyfish
+    codigo_input = jellyfish.metaphone(marca_input)
     
     resultados = []
     for marca in marcas_base:
-        codigo_marca = encoder.transform(marca)
+        # Obtener el código fonético de cada marca en la base de datos
+        codigo_marca = jellyfish.metaphone(marca)
+        
+        # Usar thefuzz para obtener un porcentaje de similitud entre los códigos fonéticos
         similitud = fuzz.ratio(codigo_input, codigo_marca)
+        
         resultados.append((marca, similitud))
         
     return resultados
