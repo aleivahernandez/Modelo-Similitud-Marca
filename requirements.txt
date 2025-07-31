@@ -5,3 +5,4 @@ torch
 transformers
 jellyfish
 thefuzz
+pyphen
