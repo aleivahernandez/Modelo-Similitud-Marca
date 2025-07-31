@@ -3,13 +3,12 @@ import streamlit as st
 import jellyfish
 from thefuzz import fuzz
 import pyphen
-import re
 
-# Inicializamos el diccionario de sílabas en español
+# Inicializamos el diccionario de sílabas en español.
 try:
     dic = pyphen.Pyphen(lang='es_ES')
 except KeyError:
-    st.error("Diccionario de sílabas en español no encontrado. Instala 'pyphen' y los diccionarios necesarios.")
+    st.error("Diccionario de sílabas en español no encontrado. Instala 'pyphen'.")
     dic = None
 
 @st.cache_data
@@ -26,31 +25,16 @@ def cargar_base_de_datos():
         return []
 
 def contar_silabas(palabra):
-    """
-    Cuenta las sílabas de una palabra. Si Pyphen falla (porque no es una palabra en español),
-    se recurre a un conteo simple de grupos de vocales.
-    """
+    """Cuenta las sílabas de una palabra usando el diccionario Pyphen para español."""
     if dic is None:
         return 1
-    try:
-        # Pyphen inserta guiones; si no inserta ninguno, falló o la palabra es un monosílabo.
-        separado = dic.inserted(palabra)
-        if '-' in separado:
-            return len(separado.split('-'))
-        
-        # Si no hay guiones, podría ser un monosílabo real o una palabra desconocida.
-        # Contamos los grupos de vocales como un método de respaldo.
-        grupos_vocales = len(re.findall('[aeiou]+', palabra, re.IGNORECASE))
-        return max(1, grupos_vocales) # Devolvemos al menos 1 sílaba
-    except Exception:
-        # Si Pyphen lanza un error, usamos el método de respaldo.
-        grupos_vocales = len(re.findall('[aeiou]+', palabra, re.IGNORECASE))
-        return max(1, grupos_vocales)
+    # Pyphen inserta guiones entre sílabas. Contamos los guiones y sumamos 1.
+    return len(dic.inserted(palabra).split('-'))
 
 def buscar_marcas_similares(marca_input):
     """
-    Busca marcas fonéticamente similares, ajustando la puntuación
-    según la diferencia en el número de sílabas.
+    Busca marcas fonéticamente similares, ignorando palabras de menos de 4 letras
+    y ajustando la puntuación según la diferencia en el número de sílabas.
     """
     marcas_base = cargar_base_de_datos()
     if not marcas_base:
@@ -61,15 +45,22 @@ def buscar_marcas_similares(marca_input):
     
     resultados = []
     for marca in marcas_base:
+        # --- CAMBIO CLAVE: Ignorar palabras con menos de 4 letras ---
+        if len(marca) < 4:
+            continue
+
+        # 1. Calcular la similitud fonética
         codigo_marca = jellyfish.metaphone(marca)
         similitud_fonetica = fuzz.ratio(codigo_input, codigo_marca)
 
+        # 2. Calcular la penalización por diferencia de sílabas
         silabas_marca = contar_silabas(marca)
         diferencia_silabas = abs(silabas_input - silabas_marca)
         
         penalizacion = 1.0 - (diferencia_silabas * 0.20)
         factor_penalizacion = max(0, penalizacion)
 
+        # 3. Calcular la puntuación final ajustada
         puntuacion_final = similitud_fonetica * factor_penalizacion
         
         resultados.append((marca, puntuacion_final))
