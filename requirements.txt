@@ -3,6 +3,5 @@ pandas
 sentence-transformers
 torch
 transformers
-fonetika
+fonetika>=1.2
 thefuzz
-#
