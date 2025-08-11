@@ -26,8 +26,16 @@ def cargar_y_codificar_datos():
         return [], None
 
     try:
-        df = pd.read_csv("base_expandida.csv")
-        # --- CAMBIO CLAVE: Se lee la primera columna (índice 0) sin importar su nombre ---
+        # --- CAMBIO CLAVE: Se hace la lectura del CSV más robusta ---
+        df = pd.read_csv(
+            "base_expandida.csv",
+            header=None,         # Indica que no hay una fila de encabezado.
+            names=['marca'],       # Nombra la única columna como "marca".
+            quotechar='"',       # Trata el contenido dentro de comillas como un solo elemento.
+            engine='python'      # Usa un motor de lectura más flexible.
+        )
+        
+        # Se lee la primera columna (índice 0) sin importar su nombre
         marca_textos = df.iloc[:, 0].dropna().astype(str).str.lower().tolist()
         
         # Determinar el dispositivo (GPU si está disponible, si no CPU)
@@ -69,5 +77,4 @@ def buscar_marcas_similares(input_marca):
     )
 
     # Retorna la lista completa de resultados, convirtiendo el score a un rango de 0-100.
-    # El filtrado de los "top 5" se hace en el archivo principal de la app.
     return [(marca, score.item() * 100) for marca, score in resultados]
