@@ -2,17 +2,17 @@ import streamlit as st
 import pandas as pd
 
 # --- Importación de los modelos ---
+# Asegúrate de que estos archivos .py estén en la misma carpeta que app.py
 from SBERT_Multilingue import buscar_marcas_similares as modelo_sbert
 from BETO import buscar_marcas_similares as modelo_beto
 from Ngrams import buscar_marcas_similares as modelo_ngrams
-from Fonetica import buscar_marcas_similares as modelo_fonetico # Modelo reincorporado
+from Fonetica import buscar_marcas_similares as modelo_fonetico
 
-def crear_dataframe_comparativo(marca_input, umbral=80.0):
+def crear_dataframe_comparativo(lista_de_palabras, umbral=80.0):
     """
-    Procesa los modelos y devuelve un único DataFrame con los resultados
-    en columnas separadas, limitado a un máximo de 5 registros por columna.
+    Procesa una LISTA de palabras con los modelos y devuelve un único DataFrame
+    con los resultados unificados, mostrando hasta 10 resultados por categoría.
     """
-    # Se reincorpora la categoría "Fonética"
     modelos_por_categoria = {
         "Semántica": [modelo_beto, modelo_sbert],
         "Ngrama": [modelo_ngrams],
@@ -22,44 +22,44 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
     resultados_agrupados = {
         "semantica": {},
         "ngrama": {},
-        "fonetica": {} # Se añade el diccionario para resultados fonéticos
+        "fonetica": {}
     }
 
     categoria_map = {
         "Semántica": "semantica",
         "Ngrama": "ngrama",
-        "Fonética": "fonetica" # Se añade la correspondencia
+        "Fonética": "fonetica"
     }
 
-    # Recopilar y deduplicar resultados dentro de cada categoría
-    for categoria_nombre, modelos in modelos_por_categoria.items():
-        clave_resultado = categoria_map[categoria_nombre]
-        for modelo_func in modelos:
-            try:
-                salida = modelo_func(marca_input)
-                if not salida: continue
-                
-                for marca, similitud in salida:
-                    if similitud >= umbral:
-                        marca_lower = marca.strip().lower()
-                        if marca_lower not in resultados_agrupados[clave_resultado] or similitud > resultados_agrupados[clave_resultado][marca_lower][1]:
-                            resultados_agrupados[clave_resultado][marca_lower] = (marca.title(), similitud)
-            except Exception as e:
-                st.warning(f"Error en modelo de '{categoria_nombre}': {e}")
+    # Bucle sobre cada palabra individual de la entrada del usuario
+    for palabra_individual in lista_de_palabras:
+        for categoria_nombre, modelos in modelos_por_categoria.items():
+            clave_resultado = categoria_map[categoria_nombre]
+            for modelo_func in modelos:
+                try:
+                    # Se busca cada palabra individual en los modelos
+                    salida = modelo_func(palabra_individual)
+                    if not salida: continue
+                    
+                    for marca, similitud in salida:
+                        if similitud >= umbral:
+                            marca_lower = marca.strip().lower()
+                            # Si la marca no existe O el nuevo score es mayor, se actualiza
+                            if marca_lower not in resultados_agrupados[clave_resultado] or similitud > resultados_agrupados[clave_resultado][marca_lower][1]:
+                                resultados_agrupados[clave_resultado][marca_lower] = (marca.title(), similitud)
+                except Exception as e:
+                    st.warning(f"Error en modelo de '{categoria_nombre}' al procesar '{palabra_individual}': {e}")
 
-    # Convertir, ordenar y limitar a 5 resultados
-    lista_semantica = sorted(resultados_agrupados["semantica"].values(), key=lambda item: item[1], reverse=True)[:5]
+    # --- CAMBIO: Se ordena y se limita a 10 resultados en lugar de 5 ---
+    lista_semantica = sorted(resultados_agrupados["semantica"].values(), key=lambda item: item[1], reverse=True)[:10]
     lista_semantica_str = [f"{marca} ({similitud:.2f}%)" for marca, similitud in lista_semantica]
 
-    lista_ngrama = sorted(resultados_agrupados["ngrama"].values(), key=lambda item: item[1], reverse=True)[:5]
+    lista_ngrama = sorted(resultados_agrupados["ngrama"].values(), key=lambda item: item[1], reverse=True)[:10]
     lista_ngrama_str = [f"{marca} ({similitud:.2f}%)" for marca, similitud in lista_ngrama]
 
-    # Se procesa la lista de resultados fonéticos
-    lista_fonetica = sorted(resultados_agrupados["fonetica"].values(), key=lambda item: item[1], reverse=True)[:5]
+    lista_fonetica = sorted(resultados_agrupados["fonetica"].values(), key=lambda item: item[1], reverse=True)[:10]
     lista_fonetica_str = [f"{marca} ({similitud:.2f}%)" for marca, similitud in lista_fonetica]
 
-
-    # Crear el DataFrame con columnas independientes
     max_len = max(len(lista_semantica_str), len(lista_ngrama_str), len(lista_fonetica_str))
     
     if max_len == 0:
@@ -68,7 +68,6 @@ def crear_dataframe_comparativo(marca_input, umbral=80.0):
     def pad_list(lst, length):
         return lst + [""] * (length - len(lst))
 
-    # Se reincorpora la columna "Fonética" al DataFrame final
     data = {
         'Semántica': pad_list(lista_semantica_str, max_len),
         'Ngrama': pad_list(lista_ngrama_str, max_len),
@@ -102,9 +101,12 @@ umbral_input_value = st.slider(
 
 if st.button("Buscar", type="primary"):
     if marca_input_text.strip():
+        # Se separa la entrada del usuario en palabras individuales para buscarlas por separado
+        palabras_a_buscar = marca_input_text.strip().upper().split()
+
         with st.spinner("Analizando y construyendo tabla..."):
             df_resultados = crear_dataframe_comparativo(
-                marca_input_text.strip(),
+                palabras_a_buscar,
                 umbral=float(umbral_input_value)
             )
         
