@@ -34,7 +34,8 @@ def cargar_y_codificar_datos_beto():
             header=None,
             names=['marca'],
             quotechar='"',
-            engine='python'
+            engine='python',
+            sep=';'
         )
         
         # Lee la primera columna, la limpia y la convierte a lista
