@@ -37,6 +37,8 @@ def cargar_y_codificar_datos_beto():
             engine='python',
             sep=',',
         )
+
+        df['marca'] = df['marca'].str.rstrip(';').str.strip()
         
         # Lee la primera columna, la limpia y la convierte a lista
         marca_textos = df.iloc[:, 0].dropna().astype(str).str.lower().tolist()
