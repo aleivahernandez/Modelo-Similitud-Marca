@@ -32,7 +32,8 @@ def cargar_y_codificar_datos():
             header=None,         # Indica que no hay una fila de encabezado.
             names=['marca'],       # Nombra la única columna como "marca".
             quotechar='"',       # Trata el contenido dentro de comillas como un solo elemento.
-            engine='python'      # Usa un motor de lectura más flexible.
+            engine='python',      # Usa un motor de lectura más flexible.
+            sep=','
         )
         
         # Se lee la primera columna (índice 0) sin importar su nombre
@@ -78,5 +79,6 @@ def buscar_marcas_similares(input_marca):
 
     # Retorna la lista completa de resultados, convirtiendo el score a un rango de 0-100.
     return [(marca, score.item() * 100) for marca, score in resultados]
+
 
 
