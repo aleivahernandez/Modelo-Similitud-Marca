@@ -35,7 +35,7 @@ def cargar_y_codificar_datos():
             engine='python',      # Usa un motor de lectura más flexible.
             sep=','
         )
-        
+        df['marca'] = df['marca'].str.rstrip(';').str.strip()
         # Se lee la primera columna (índice 0) sin importar su nombre
         marca_textos = df.iloc[:, 0].dropna().astype(str).str.lower().tolist()
         
@@ -79,6 +79,7 @@ def buscar_marcas_similares(input_marca):
 
     # Retorna la lista completa de resultados, convirtiendo el score a un rango de 0-100.
     return [(marca, score.item() * 100) for marca, score in resultados]
+
 
 
 
