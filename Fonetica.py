@@ -25,6 +25,7 @@ def cargar_base_de_datos():
             engine='python',
             sep=',',
         )
+        df['marca'] = df['marca'].str.rstrip(';').str.strip()
         return df.iloc[:, 0].dropna().str.lower().tolist()
     except FileNotFoundError:
         st.error("Error en Módulo Fonético: No se encontró el archivo 'base_expandida.csv'.")
