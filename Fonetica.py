@@ -22,8 +22,7 @@ def cargar_base_de_datos():
             header=None,
             names=['marca'],
             quotechar='"',
-            engine='python',
-            sep=';'
+            engine='python'
         )
         return df.iloc[:, 0].dropna().str.lower().tolist()
     except FileNotFoundError:
